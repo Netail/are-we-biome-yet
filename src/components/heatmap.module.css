@@ -1,0 +1,22 @@
+.heatmap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.heatmapItem {
+    height: 40px;
+    width: 40px;
+}
+
+.same {
+    background-color: green;
+}
+
+.inspired {
+    background-color: orange;
+}
+
+.missing {
+    background-color: red;
+}
