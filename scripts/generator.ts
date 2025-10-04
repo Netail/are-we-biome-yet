@@ -1,8 +1,13 @@
 import { writeFileSync } from "node:fs";
 import type { Rule } from "../src/interfaces/rule.ts";
 import { fetchEslintRules } from "./plugins/eslint.ts";
+import { fetchEslintPluginImportRules } from "./plugins/eslint-plugin-import.ts";
+import { fetchEslintPluginJestRules } from "./plugins/eslint-plugin-jest.ts";
 import { fetchEslintPluginJSXA11YRules } from "./plugins/eslint-plugin-jsx-a11y.ts";
 import { fetchEslintPluginReactRules } from "./plugins/eslint-plugin-react.ts";
+import { fetchEslintPluginReactHooksRules } from "./plugins/eslint-plugin-react-hooks.ts";
+import { fetchEslintPluginUnicornRules } from "./plugins/eslint-plugin-unicorn.ts";
+import { fetchEslintPluginVitestRules } from "./plugins/eslint-plugin-vitest.ts";
 import { fetchGraphqlEslintRules } from "./plugins/graphql-eslint.ts";
 import { fetchStylelintRules } from "./plugins/stylelint.ts";
 import { fetchTypeScriptEslintRules } from "./plugins/typescript-eslint.ts";
@@ -89,11 +94,27 @@ const yoink = async () => {
 	const eslintPluginReact = await fetchEslintPluginReactRules(createRule);
 	console.log("eslint-plugin-react: ", eslintPluginReact.length);
 
+	const eslintPluginReactHooks =
+		await fetchEslintPluginReactHooksRules(createRule);
+	console.log("eslint-plugin-react-hooks: ", eslintPluginReactHooks.length);
+
 	const a11yEslint = await fetchEslintPluginJSXA11YRules(createRule);
 	console.log("eslint-plugin-jsx-a11y: ", a11yEslint.length);
 
+	const unicornEslint = await fetchEslintPluginUnicornRules(createRule);
+	console.log("graphql-plugin-unicorn: ", unicornEslint.length);
+
 	const graphqlEslint = await fetchGraphqlEslintRules(createRule);
 	console.log("graphql-eslint: ", graphqlEslint.length);
+
+	const jestEslint = await fetchEslintPluginJestRules(createRule);
+	console.log("eslint-plugin-jest: ", jestEslint.length);
+
+	const vitestEslint = await fetchEslintPluginVitestRules(createRule);
+	console.log("eslint-plugin-vitest: ", vitestEslint.length);
+
+	const importEslint = await fetchEslintPluginImportRules(createRule);
+	console.log("eslint-plugin-import: ", importEslint.length);
 
 	writeFileSync(
 		"./output.json",
@@ -116,13 +137,33 @@ const yoink = async () => {
 					rules: eslintPluginReact,
 				},
 				{
+					name: "eslint-plugin-react-hooks",
+					rules: eslintPluginReactHooks,
+				},
+				{
 					name: "eslint-plugin-jsx-a11y",
 					rules: a11yEslint,
+				},
+				{
+					name: "graphql-plugin-unicorn",
+					rules: unicornEslint,
 				},
 				{
 					name: "graphql-eslint",
 					rules: graphqlEslint,
 				},
+				{
+					name: "eslint-plugin-jest",
+					rules: jestEslint,
+				},
+				{
+					name: "eslint-plugin-vitest",
+					rules: vitestEslint,
+				},
+				{
+					name: "eslint-plugin-import",
+					rules: importEslint
+				}
 			],
 		}),
 	);
