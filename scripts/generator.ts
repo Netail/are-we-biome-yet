@@ -8,8 +8,10 @@ import { fetchEslintPluginReactRules } from "./plugins/eslint-plugin-react.ts";
 import { fetchEslintPluginReactHooksRules } from "./plugins/eslint-plugin-react-hooks.ts";
 import { fetchEslintPluginUnicornRules } from "./plugins/eslint-plugin-unicorn.ts";
 import { fetchEslintPluginVitestRules } from "./plugins/eslint-plugin-vitest.ts";
+import { fetchEslintPluginVueRules } from "./plugins/eslint-plugin-vue.ts";
 import { fetchGraphqlEslintRules } from "./plugins/graphql-eslint.ts";
 import { fetchStylelintRules } from "./plugins/stylelint.ts";
+import { fetchStylisticRules } from "./plugins/stylistic.ts";
 import { fetchTypeScriptEslintRules } from "./plugins/typescript-eslint.ts";
 
 export interface BiomeMetaDataRule {
@@ -116,6 +118,12 @@ const yoink = async () => {
 	const importEslint = await fetchEslintPluginImportRules(createRule);
 	console.log("eslint-plugin-import: ", importEslint.length);
 
+	const vueEslint = await fetchEslintPluginVueRules(createRule);
+	console.log("eslint-plugin-vue: ", vueEslint.length);
+
+	const importStylistic = await fetchStylisticRules(createRule);
+	console.log("stylistic: ", importStylistic.length);
+
 	writeFileSync(
 		"./output.json",
 		JSON.stringify({
@@ -145,11 +153,11 @@ const yoink = async () => {
 					rules: a11yEslint,
 				},
 				{
-					name: "graphql-plugin-unicorn",
+					name: "eslint-plugin-unicorn",
 					rules: unicornEslint,
 				},
 				{
-					name: "graphql-eslint",
+					name: "@graphql-eslint/eslint-plugin",
 					rules: graphqlEslint,
 				},
 				{
@@ -162,8 +170,16 @@ const yoink = async () => {
 				},
 				{
 					name: "eslint-plugin-import",
-					rules: importEslint
-				}
+					rules: importEslint,
+				},
+				{
+					name: "eslint-plugin-vue",
+					rules: vueEslint,
+				},
+				{
+					name: "@stylistic/eslint-plugin",
+					rules: importStylistic,
+				},
 			],
 		}),
 	);
