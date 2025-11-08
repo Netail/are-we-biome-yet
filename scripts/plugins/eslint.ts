@@ -3,7 +3,7 @@ import type { CreateRule } from "../generator.ts";
 
 export const fetchEslintRules = async (
 	createRule: CreateRule,
-): Promise<Rule[]> => {
+): Promise<{ name: string, rules: Rule[] }> => {
 	const rules: Rule[] = [];
 
 	const response = await fetch(
@@ -24,5 +24,8 @@ export const fetchEslintRules = async (
 		rules.push(createRule("eslint", rule, meta.docs.url));
 	}
 
-	return rules;
+	return {
+		name: "eslint",
+		rules,
+	};
 };

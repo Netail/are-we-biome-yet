@@ -6,7 +6,7 @@ const BASE_URL = `https://typescript-eslint.io`;
 
 export const fetchTypeScriptEslintRules = async (
 	createRule: CreateRule,
-): Promise<Rule[]> => {
+): Promise<{ name: string, rules: Rule[] }> => {
 	const rules: Rule[] = [];
 
 	const response = await fetch(`${BASE_URL}/rules/`);
@@ -32,5 +32,5 @@ export const fetchTypeScriptEslintRules = async (
 		);
 	}
 
-	return rules;
+	return { name: "typescript-eslint", rules };
 };

@@ -6,7 +6,7 @@ const BASE_URL = `https://the-guild.dev`;
 
 export const fetchGraphqlEslintRules = async (
 	createRule: CreateRule,
-): Promise<Rule[]> => {
+): Promise<{ name: string, rules: Rule[] }> => {
 	const rules: Rule[] = [];
 
 	const response = await fetch(`${BASE_URL}/graphql/eslint/rules`);
@@ -30,5 +30,8 @@ export const fetchGraphqlEslintRules = async (
 		);
 	}
 
-	return rules;
+	return {
+		name: "@graphql-eslint/eslint-plugin",
+		rules,
+	};
 };

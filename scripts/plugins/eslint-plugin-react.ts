@@ -3,7 +3,7 @@ import type { CreateRule } from "../generator.ts";
 
 export const fetchEslintPluginReactRules = async (
 	createRule: CreateRule,
-): Promise<Rule[]> => {
+): Promise<{ name: string, rules: Rule[] }> => {
 	const rules: Rule[] = [];
 
 	const response = await fetch(
@@ -11,7 +11,7 @@ export const fetchEslintPluginReactRules = async (
 	);
 	const markdown = await response.text();
 
-	const lines = markdown.split('\n');
+	const lines = markdown.split("\n");
 	lines
 		.filter((e) => /^\| \[(.*)\]\(docs\/rules\/(.*)\.md\).*/.test(e))
 		.filter((e) => !e.includes("❌"))
@@ -31,5 +31,8 @@ export const fetchEslintPluginReactRules = async (
 			);
 		});
 
-	return rules;
+	return {
+		name: "eslint-plugin-react",
+		rules,
+	};
 };

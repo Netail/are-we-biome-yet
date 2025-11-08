@@ -19,7 +19,7 @@ jobs:
       - name: Node setup
         uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: 24
           token: ${{ secrets.GITHUB_TOKEN }}
           registry-url: 'https://npm.pkg.github.com'
           scope: '@netail'

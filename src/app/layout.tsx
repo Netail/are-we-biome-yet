@@ -1,25 +1,17 @@
 import type { Metadata } from "next";
+import type { PropsWithChildren } from "react";
 
 import "./globals.css";
 
 export const metadata: Metadata = {
 	title: "Are We biome Yet?",
+	description: "An overview of ported popular lint rules to Biome",
+	icons: "https://netail.dev/favicon.ico",
 };
 
-const RootLayout = ({
-	children,
-}: Readonly<{
-	children: React.ReactNode;
-}>) => {
+const RootLayout = ({ children }: PropsWithChildren) => {
 	return (
 		<html lang="en">
-			<head>
-				<link
-					rel="shortcut icon"
-					href="https://biomejs.dev/img/favicon.svg"
-					type="image/svg+xml"
-				/>
-			</head>
 			<body>{children}</body>
 		</html>
 	);

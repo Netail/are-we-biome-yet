@@ -1,5 +1,6 @@
 import { HeatMap } from "@/components/heatmap";
 import type { Plugin } from "@/interfaces/rule";
+import { calculate } from "@/utils/calculate";
 import { importOutput } from "@/utils/importer";
 
 import css from "./page.module.css";
@@ -7,27 +8,30 @@ import css from "./page.module.css";
 const Page = async () => {
 	const plugins: Plugin[] = await importOutput();
 
-	const rules = plugins.flatMap(e => e.rules);
-	const totalRules = rules.length;
-	const availableRules = rules.filter(e => e.state !== 'missing').length;
-	const percentage = Math.round(Math.max((availableRules / totalRules) * 100));
+	const rules = plugins.flatMap((e) => e.rules);
+	const { total, available, percentage } = calculate(rules);
 
 	return (
 		<div className={css.container}>
 			<h1>Are We Biome Yet?</h1>
-			<p>{availableRules} of {totalRules} rules have been implemented ({percentage}%)</p>
+			<p>
+				{available} of {total} rules have been implemented ({percentage}%)
+			</p>
 
 			{plugins.map((plugin) => {
-				const pluginTotalRules = plugin.rules.length;
-				const pluginAvailableRules = plugin.rules.filter(e => e.state !== 'missing').length;
-				const pluginPercentage = Math.round(Math.max((pluginAvailableRules / pluginTotalRules) * 100));
+				const { total, available, percentage } = calculate(plugin.rules);
 
 				return (
 					<details className={css.group} key={plugin.name} open>
-						<summary><h2>{plugin.name} ({pluginAvailableRules} / {pluginTotalRules} - {pluginPercentage || 0}%{pluginPercentage === 100 ? ' 🎉' : ''})</h2></summary>
+						<summary>
+							<h2>
+								{plugin.name} ({available} / {total} - {percentage}%
+								{percentage === 100 ? " 🎉" : ""})
+							</h2>
+						</summary>
 						<HeatMap rules={plugin.rules} />
 					</details>
-				)
+				);
 			})}
 		</div>
 	);

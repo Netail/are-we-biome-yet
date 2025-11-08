@@ -84,103 +84,28 @@ const yoink = async () => {
 	const biomeMetaData: BiomeMetaData = await response.json();
 	const createRule = createRuleCaller(biomeMetaData);
 
-	const eslint = await fetchEslintRules(createRule);
-	console.log("eslint: ", eslint.length);
+	const plugins = [
+		await fetchEslintRules(createRule),
+		await fetchTypeScriptEslintRules(createRule),
+		await fetchStylelintRules(createRule),
+		await fetchEslintPluginReactRules(createRule),
+		await fetchEslintPluginReactHooksRules(createRule),
+		await fetchEslintPluginJSXA11YRules(createRule),
+		await fetchEslintPluginUnicornRules(createRule),
+		await fetchGraphqlEslintRules(createRule),
+		await fetchEslintPluginJestRules(createRule),
+		await fetchEslintPluginVitestRules(createRule),
+		await fetchEslintPluginImportRules(createRule),
+		await fetchEslintPluginVueRules(createRule),
+		await fetchStylisticRules(createRule),
+	];
 
-	const tsEslint = await fetchTypeScriptEslintRules(createRule);
-	console.log("typescript-eslint: ", tsEslint.length);
-
-	const stylelint = await fetchStylelintRules(createRule);
-	console.log("stylelint: ", stylelint.length);
-
-	const eslintPluginReact = await fetchEslintPluginReactRules(createRule);
-	console.log("eslint-plugin-react: ", eslintPluginReact.length);
-
-	const eslintPluginReactHooks =
-		await fetchEslintPluginReactHooksRules(createRule);
-	console.log("eslint-plugin-react-hooks: ", eslintPluginReactHooks.length);
-
-	const a11yEslint = await fetchEslintPluginJSXA11YRules(createRule);
-	console.log("eslint-plugin-jsx-a11y: ", a11yEslint.length);
-
-	const unicornEslint = await fetchEslintPluginUnicornRules(createRule);
-	console.log("graphql-plugin-unicorn: ", unicornEslint.length);
-
-	const graphqlEslint = await fetchGraphqlEslintRules(createRule);
-	console.log("graphql-eslint: ", graphqlEslint.length);
-
-	const jestEslint = await fetchEslintPluginJestRules(createRule);
-	console.log("eslint-plugin-jest: ", jestEslint.length);
-
-	const vitestEslint = await fetchEslintPluginVitestRules(createRule);
-	console.log("eslint-plugin-vitest: ", vitestEslint.length);
-
-	const importEslint = await fetchEslintPluginImportRules(createRule);
-	console.log("eslint-plugin-import: ", importEslint.length);
-
-	const vueEslint = await fetchEslintPluginVueRules(createRule);
-	console.log("eslint-plugin-vue: ", vueEslint.length);
-
-	const importStylistic = await fetchStylisticRules(createRule);
-	console.log("stylistic: ", importStylistic.length);
+	plugins.forEach(plugin => console.log(`${plugin.name}: ${plugin.rules.length}`))
 
 	writeFileSync(
 		"./output.json",
 		JSON.stringify({
-			plugins: [
-				{
-					name: "eslint",
-					rules: eslint,
-				},
-				{
-					name: "typescript-eslint",
-					rules: tsEslint,
-				},
-				{
-					name: "stylelint",
-					rules: stylelint,
-				},
-				{
-					name: "eslint-plugin-react",
-					rules: eslintPluginReact,
-				},
-				{
-					name: "eslint-plugin-react-hooks",
-					rules: eslintPluginReactHooks,
-				},
-				{
-					name: "eslint-plugin-jsx-a11y",
-					rules: a11yEslint,
-				},
-				{
-					name: "eslint-plugin-unicorn",
-					rules: unicornEslint,
-				},
-				{
-					name: "@graphql-eslint/eslint-plugin",
-					rules: graphqlEslint,
-				},
-				{
-					name: "eslint-plugin-jest",
-					rules: jestEslint,
-				},
-				{
-					name: "eslint-plugin-vitest",
-					rules: vitestEslint,
-				},
-				{
-					name: "eslint-plugin-import",
-					rules: importEslint,
-				},
-				{
-					name: "eslint-plugin-vue",
-					rules: vueEslint,
-				},
-				{
-					name: "@stylistic/eslint-plugin",
-					rules: importStylistic,
-				},
-			],
+			plugins,
 		}),
 	);
 };

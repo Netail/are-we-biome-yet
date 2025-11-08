@@ -22,9 +22,9 @@
 
 	summary {
 		list-style: none;
-	}
 
-	summary:hover {
-		cursor: pointer;
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
