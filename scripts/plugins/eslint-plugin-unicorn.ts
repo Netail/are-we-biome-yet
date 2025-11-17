@@ -3,11 +3,11 @@ import type { CreateRule } from "../generator.ts";
 
 export const fetchEslintPluginUnicornRules = async (
 	createRule: CreateRule,
-): Promise<{ name: string, rules: Rule[] }> => {
+): Promise<{ name: string; rules: Rule[] }> => {
 	const rules: Rule[] = [];
 
 	const response = await fetch(
-		`https://raw.githubusercontent.com/sindresorhus/eslint-plugin-unicorn/refs/heads/main/readme.md`,
+		"https://raw.githubusercontent.com/sindresorhus/eslint-plugin-unicorn/refs/heads/main/readme.md",
 	);
 	const markdown = await response.text();
 
@@ -16,7 +16,7 @@ export const fetchEslintPluginUnicornRules = async (
 		.filter((e) => /^\| \[(.*)\]\(docs\/rules\/(.*)\.md\).*/.test(e))
 		.filter((e) => !e.includes("❌"))
 		.forEach((e) => {
-			const parts = /^\| \[(.*)\]\(([a-z0-9-_./]*)\)/.exec(e);
+			const parts = /^\| \[(.*)\]\(([a-z0-9-_./:#]*)\)/.exec(e);
 
 			if (!parts) return;
 

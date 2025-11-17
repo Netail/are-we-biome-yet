@@ -3,7 +3,7 @@ import type { CreateRule } from "../generator.ts";
 
 export const fetchEslintPluginVitestRules = async (
 	createRule: CreateRule,
-): Promise<{ name: string, rules: Rule[] }> => {
+): Promise<{ name: string; rules: Rule[] }> => {
 	const rules: Rule[] = [];
 
 	const response = await fetch(
@@ -16,7 +16,7 @@ export const fetchEslintPluginVitestRules = async (
 		.filter((e) => /^\| \[(.*)\]\(docs\/rules\/(.*)\.md\).*/.test(e))
 		.filter((e) => !e.includes("❌"))
 		.forEach((e) => {
-			const parts = /^\| \[(.*)\]\(([a-z0-9-_./]*)\)/.exec(e);
+			const parts = /^\| \[(.*)\]\(([a-z0-9-_./:#]*)\)/.exec(e);
 
 			if (!parts) return;
 

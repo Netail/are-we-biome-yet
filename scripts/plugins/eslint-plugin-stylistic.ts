@@ -2,11 +2,11 @@ import { parse } from "node-html-parser";
 import type { Rule } from "../../src/interfaces/rule.ts";
 import type { CreateRule } from "../generator.ts";
 
-const BASE_URL = `https://eslint.style`;
+const BASE_URL = "https://eslint.style";
 
-export const fetchStylisticRules = async (
+export const fetchEslintPluginStylisticRules = async (
 	createRule: CreateRule,
-): Promise<{ name: string, rules: Rule[] }> => {
+): Promise<{ name: string; rules: Rule[] }> => {
 	const rules: Rule[] = [];
 
 	const response = await fetch(`${BASE_URL}/rules/`);

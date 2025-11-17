@@ -2,11 +2,11 @@ import { parse } from "node-html-parser";
 import type { Rule } from "../../src/interfaces/rule.ts";
 import type { CreateRule } from "../generator.ts";
 
-const BASE_URL = `https://eslint.vuejs.org`;
+const BASE_URL = "https://eslint.vuejs.org";
 
 export const fetchEslintPluginVueRules = async (
 	createRule: CreateRule,
-): Promise<{ name: string, rules: Rule[] }> => {
+): Promise<{ name: string; rules: Rule[] }> => {
 	const rules: Rule[] = [];
 
 	const response = await fetch(`${BASE_URL}/rules`);

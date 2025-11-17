@@ -2,14 +2,16 @@ import { parse } from "node-html-parser";
 import type { Rule } from "../../src/interfaces/rule.ts";
 import type { CreateRule } from "../generator.ts";
 
-const BASE_URL = `https://the-guild.dev`;
+const BASE_URL = "https://nextjs.org";
 
-export const fetchGraphqlEslintRules = async (
+export const fetchEslintPluginNextRules = async (
 	createRule: CreateRule,
-): Promise<{ name: string, rules: Rule[] }> => {
+): Promise<{ name: string; rules: Rule[] }> => {
 	const rules: Rule[] = [];
 
-	const response = await fetch(`${BASE_URL}/graphql/eslint/rules`);
+	const response = await fetch(
+		`${BASE_URL}/docs/pages/api-reference/config/eslint`,
+	);
 	const htmlPage = await response.text();
 
 	const html = parse(htmlPage);
@@ -23,7 +25,7 @@ export const fetchGraphqlEslintRules = async (
 
 		rules.push(
 			createRule(
-				"eslintGraphql",
+				"eslintNext",
 				path.split("/").pop() || "",
 				`${BASE_URL}${path}`,
 			),
@@ -31,7 +33,7 @@ export const fetchGraphqlEslintRules = async (
 	}
 
 	return {
-		name: "@graphql-eslint/eslint-plugin",
+		name: "@next/eslint-plugin-next",
 		rules,
 	};
 };
