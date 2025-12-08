@@ -107,11 +107,18 @@ const yoink = async () => {
 		await fetchEslintPluginStylisticRules(createRule),
 	];
 
-	plugins.forEach((plugin) => {
-		const { total, available } = calculate(plugin.rules);
+	console.table(
+		plugins.map((plugin) => {
+			const { total, available, percentage } = calculate(plugin.rules);
 
-		console.log(`${plugin.name}: ${available} / ${total}`);
-	});
+			return {
+				name: plugin.name,
+				total,
+				available,
+				percentage,
+			};
+		}),
+	);
 
 	writeFileSync(
 		"./output.json",

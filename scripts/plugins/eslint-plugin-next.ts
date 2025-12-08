@@ -21,7 +21,7 @@ export const fetchEslintPluginNextRules = async (
 	for (const row of rows) {
 		const path = row.getAttribute("href");
 
-		if (!path) continue;
+		if (!path || !path.startsWith("/docs/messages")) continue;
 
 		rules.push(
 			createRule(

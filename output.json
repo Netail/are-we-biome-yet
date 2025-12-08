@@ -7348,11 +7348,6 @@
 					"state": "missing"
 				},
 				{
-					"source_rule_name": "data-fetching",
-					"source_link": "https://nextjs.org/docs/pages/building-your-application/data-fetching",
-					"state": "missing"
-				},
-				{
 					"source_rule_name": "no-unwanted-polyfillio",
 					"source_link": "https://nextjs.org/docs/messages/no-unwanted-polyfillio",
 					"biome_rule_name": "noUnwantedPolyfillio",
