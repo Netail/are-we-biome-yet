@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[88692,["/are-we-biome-yet/_next/static/chunks/517add6f8ac1d74e.js"],"default"]
-3:I[34672,["/are-we-biome-yet/_next/static/chunks/517add6f8ac1d74e.js"],"default"]
-0:{"buildId":"ByJ92KWoC7zsVU2p1uA7E","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[9871,["/are-we-biome-yet/_next/static/chunks/06b9e0703083b659.js"],"default"]
+3:I[6235,["/are-we-biome-yet/_next/static/chunks/06b9e0703083b659.js"],"default"]
+0:{"buildId":"v4JeqhKNg6fTH2325_zsd","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
