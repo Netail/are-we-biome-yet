@@ -1797,6 +1797,11 @@
 					"state": "same"
 				},
 				{
+					"source_rule_name": "no-useless-default-assignment",
+					"source_link": "https://typescript-eslint.io/rules/no-useless-default-assignment",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-useless-empty-export",
 					"source_link": "https://typescript-eslint.io/rules/no-useless-empty-export",
 					"biome_rule_name": "noUselessEmptyExport",
@@ -2986,7 +2991,9 @@
 				{
 					"source_rule_name": "jsx-no-leaked-render",
 					"source_link": "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-leaked-render.md",
-					"state": "missing"
+					"biome_rule_name": "noLeakedRender",
+					"biome_link": "https://biomejs.dev/linter/rules/no-leaked-render",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "jsx-no-literals",
@@ -3434,7 +3441,9 @@
 				{
 					"source_rule_name": "anchor-ambiguous-text",
 					"source_link": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/anchor-ambiguous-text.md",
-					"state": "missing"
+					"biome_rule_name": "noAmbiguousAnchorText",
+					"biome_link": "https://biomejs.dev/linter/rules/no-ambiguous-anchor-text",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "anchor-has-content",
@@ -4924,6 +4933,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-unneeded-async-expect-function",
+					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-unneeded-async-expect-function.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-untyped-mock-factory",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-untyped-mock-factory.md",
 					"state": "missing"
@@ -5056,6 +5070,16 @@
 				{
 					"source_rule_name": "prefer-to-contain",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-contain.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-to-have-been-called",
+					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-have-been-called.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-to-have-been-called-times",
+					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-have-been-called-times.md",
 					"state": "missing"
 				},
 				{
@@ -6663,6 +6687,11 @@
 				{
 					"source_rule_name": "no-undef-components",
 					"source_link": "https://eslint.vuejs.org/rules/no-undef-components",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-undef-directives",
+					"source_link": "https://eslint.vuejs.org/rules/no-undef-directives",
 					"state": "missing"
 				},
 				{
