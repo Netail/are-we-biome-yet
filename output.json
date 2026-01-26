@@ -45,7 +45,9 @@
 				{
 					"source_rule_name": "complexity",
 					"source_link": "https://eslint.org/docs/latest/rules/complexity",
-					"state": "missing"
+					"biome_rule_name": "noExcessiveCognitiveComplexity",
+					"biome_link": "https://biomejs.dev/linter/rules/no-excessive-cognitive-complexity",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "consistent-return",
@@ -177,7 +179,9 @@
 				{
 					"source_rule_name": "max-classes-per-file",
 					"source_link": "https://eslint.org/docs/latest/rules/max-classes-per-file",
-					"state": "missing"
+					"biome_rule_name": "noExcessiveClassesPerFile",
+					"biome_link": "https://biomejs.dev/linter/rules/no-excessive-classes-per-file",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "max-depth",
@@ -187,7 +191,9 @@
 				{
 					"source_rule_name": "max-lines",
 					"source_link": "https://eslint.org/docs/latest/rules/max-lines",
-					"state": "missing"
+					"biome_rule_name": "noExcessiveLinesPerFile",
+					"biome_link": "https://biomejs.dev/linter/rules/no-excessive-lines-per-file",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "max-lines-per-function",
@@ -350,7 +356,9 @@
 				{
 					"source_rule_name": "no-div-regex",
 					"source_link": "https://eslint.org/docs/latest/rules/no-div-regex",
-					"state": "missing"
+					"biome_rule_name": "noDivRegex",
+					"biome_link": "https://biomejs.dev/linter/rules/no-div-regex",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-dupe-args",
@@ -641,7 +649,9 @@
 				{
 					"source_rule_name": "no-new",
 					"source_link": "https://eslint.org/docs/latest/rules/no-new",
-					"state": "missing"
+					"biome_rule_name": "noFloatingClasses",
+					"biome_link": "https://biomejs.dev/linter/rules/no-floating-classes",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-new-func",
@@ -1177,7 +1187,9 @@
 				{
 					"source_rule_name": "preserve-caught-error",
 					"source_link": "https://eslint.org/docs/latest/rules/preserve-caught-error",
-					"state": "missing"
+					"biome_rule_name": "useErrorCause",
+					"biome_link": "https://biomejs.dev/linter/rules/use-error-cause",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "radix",
@@ -1463,7 +1475,9 @@
 				{
 					"source_rule_name": "no-duplicate-enum-values",
 					"source_link": "https://typescript-eslint.io/rules/no-duplicate-enum-values",
-					"state": "missing"
+					"biome_rule_name": "noDuplicateEnumValues",
+					"biome_link": "https://biomejs.dev/linter/rules/no-duplicate-enum-values",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-duplicate-type-constituents",
@@ -1592,7 +1606,9 @@
 				{
 					"source_rule_name": "no-mixed-enums",
 					"source_link": "https://typescript-eslint.io/rules/no-mixed-enums",
-					"state": "missing"
+					"biome_rule_name": "useConsistentEnumValueType",
+					"biome_link": "https://biomejs.dev/linter/rules/use-consistent-enum-value-type",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-namespace",
@@ -1994,6 +2010,11 @@
 				{
 					"source_rule_name": "strict-boolean-expressions",
 					"source_link": "https://typescript-eslint.io/rules/strict-boolean-expressions",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "strict-void-return",
+					"source_link": "https://typescript-eslint.io/rules/strict-void-return",
 					"state": "missing"
 				},
 				{
@@ -4518,12 +4539,16 @@
 				{
 					"source_rule_name": "lone-anonymous-operation",
 					"source_link": "https://the-guild.dev/graphql/eslint/rules/lone-anonymous-operation",
-					"state": "missing"
+					"biome_rule_name": "useLoneAnonymousOperation",
+					"biome_link": "https://biomejs.dev/linter/rules/use-lone-anonymous-operation",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "lone-executable-definition",
 					"source_link": "https://the-guild.dev/graphql/eslint/rules/lone-executable-definition",
-					"state": "missing"
+					"biome_rule_name": "useLoneExecutableDefinition",
+					"biome_link": "https://biomejs.dev/linter/rules/use-lone-executable-definition",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "lone-schema-definition",
@@ -4577,7 +4602,9 @@
 				{
 					"source_rule_name": "no-root-type",
 					"source_link": "https://the-guild.dev/graphql/eslint/rules/no-root-type",
-					"state": "missing"
+					"biome_rule_name": "noRootType",
+					"biome_link": "https://biomejs.dev/linter/rules/no-root-type",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-scalar-result-type-on-mutation",
@@ -4726,8 +4753,8 @@
 				{
 					"source_rule_name": "unique-argument-names",
 					"source_link": "https://the-guild.dev/graphql/eslint/rules/unique-argument-names",
-					"biome_rule_name": "useUniqueArgumentNames",
-					"biome_link": "https://biomejs.dev/linter/rules/use-unique-argument-names",
+					"biome_rule_name": "noDuplicateArgumentNames",
+					"biome_link": "https://biomejs.dev/linter/rules/no-duplicate-argument-names",
 					"state": "same"
 				},
 				{
@@ -4743,13 +4770,15 @@
 				{
 					"source_rule_name": "unique-enum-value-names",
 					"source_link": "https://the-guild.dev/graphql/eslint/rules/unique-enum-value-names",
-					"state": "missing"
+					"biome_rule_name": "noDuplicateEnumValueNames",
+					"biome_link": "https://biomejs.dev/linter/rules/no-duplicate-enum-value-names",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "unique-field-definition-names",
 					"source_link": "https://the-guild.dev/graphql/eslint/rules/unique-field-definition-names",
-					"biome_rule_name": "useUniqueFieldDefinitionNames",
-					"biome_link": "https://biomejs.dev/linter/rules/use-unique-field-definition-names",
+					"biome_rule_name": "noDuplicateFieldDefinitionNames",
+					"biome_link": "https://biomejs.dev/linter/rules/no-duplicate-field-definition-names",
 					"state": "same"
 				},
 				{
@@ -4760,15 +4789,15 @@
 				{
 					"source_rule_name": "unique-input-field-names",
 					"source_link": "https://the-guild.dev/graphql/eslint/rules/unique-input-field-names",
-					"biome_rule_name": "useUniqueInputFieldNames",
-					"biome_link": "https://biomejs.dev/linter/rules/use-unique-input-field-names",
+					"biome_rule_name": "noDuplicateInputFieldNames",
+					"biome_link": "https://biomejs.dev/linter/rules/no-duplicate-input-field-names",
 					"state": "same"
 				},
 				{
 					"source_rule_name": "unique-operation-name",
 					"source_link": "https://the-guild.dev/graphql/eslint/rules/unique-operation-name",
-					"biome_rule_name": "useUniqueGraphqlOperationName",
-					"biome_link": "https://biomejs.dev/linter/rules/use-unique-graphql-operation-name",
+					"biome_rule_name": "noDuplicateGraphqlOperationName",
+					"biome_link": "https://biomejs.dev/linter/rules/no-duplicate-graphql-operation-name",
 					"state": "inspired"
 				},
 				{
@@ -4784,8 +4813,8 @@
 				{
 					"source_rule_name": "unique-variable-names",
 					"source_link": "https://the-guild.dev/graphql/eslint/rules/unique-variable-names",
-					"biome_rule_name": "useUniqueVariableNames",
-					"biome_link": "https://biomejs.dev/linter/rules/use-unique-variable-names",
+					"biome_rule_name": "noDuplicateVariableNames",
+					"biome_link": "https://biomejs.dev/linter/rules/no-duplicate-variable-names",
 					"state": "same"
 				},
 				{
@@ -5553,6 +5582,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "require-test-timeout",
+					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-test-timeout.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "require-to-throw-message",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-to-throw-message.md",
 					"state": "missing"
@@ -6004,7 +6038,9 @@
 				{
 					"source_rule_name": "no-duplicate-attributes",
 					"source_link": "https://eslint.vuejs.org/rules/no-duplicate-attributes",
-					"state": "missing"
+					"biome_rule_name": "noDuplicateAttributes",
+					"biome_link": "https://biomejs.dev/linter/rules/no-duplicate-attributes",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-export-in-script-setup",
@@ -6646,6 +6682,11 @@
 				{
 					"source_rule_name": "no-import-compiler-macros",
 					"source_link": "https://eslint.vuejs.org/rules/no-import-compiler-macros",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-literals-in-template",
+					"source_link": "https://eslint.vuejs.org/rules/no-literals-in-template",
 					"state": "missing"
 				},
 				{
@@ -7348,7 +7389,9 @@
 				{
 					"source_rule_name": "inline-script-id",
 					"source_link": "https://nextjs.org/docs/messages/inline-script-id",
-					"state": "missing"
+					"biome_rule_name": "useInlineScriptId",
+					"biome_link": "https://biomejs.dev/linter/rules/use-inline-script-id",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "next-script-for-ga",
