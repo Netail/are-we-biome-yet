@@ -1,3 +1,3 @@
 :HL["/are-we-biome-yet/_next/static/chunks/965ee9a86dfa6141.css","style"]
 :HL["/are-we-biome-yet/_next/static/chunks/85976addda9a05a1.css","style"]
-0:{"buildId":"4jPmAGh3H6WWcAZgs_eav","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"JqD9Citf_sMSbL0E4BgF4","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
