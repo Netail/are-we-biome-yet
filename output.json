@@ -1422,7 +1422,9 @@
 				{
 					"source_rule_name": "method-signature-style",
 					"source_link": "https://typescript-eslint.io/rules/method-signature-style",
-					"state": "missing"
+					"biome_rule_name": "useConsistentMethodSignatures",
+					"biome_link": "https://biomejs.dev/linter/rules/use-consistent-method-signatures",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "naming-convention",
@@ -2064,7 +2066,9 @@
 				{
 					"source_rule_name": "media-type-no-deprecated",
 					"source_link": "https://stylelint.io/user-guide/rules/media-type-no-deprecated",
-					"state": "missing"
+					"biome_rule_name": "noDeprecatedMediaType",
+					"biome_link": "https://biomejs.dev/linter/rules/no-deprecated-media-type",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "property-no-deprecated",
@@ -2374,7 +2378,9 @@
 				{
 					"source_rule_name": "color-no-hex",
 					"source_link": "https://stylelint.io/user-guide/rules/color-no-hex",
-					"state": "missing"
+					"biome_rule_name": "noHexColors",
+					"biome_link": "https://biomejs.dev/linter/rules/no-hex-colors",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "comment-word-disallowed-list",
@@ -2691,6 +2697,11 @@
 				{
 					"source_rule_name": "color-hex-length",
 					"source_link": "https://stylelint.io/user-guide/rules/color-hex-length",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "display-notation",
+					"source_link": "https://stylelint.io/user-guide/rules/display-notation",
 					"state": "missing"
 				},
 				{
@@ -4228,7 +4239,9 @@
 				{
 					"source_rule_name": "prefer-global-this",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-global-this.md",
-					"state": "missing"
+					"biome_rule_name": "useGlobalThis",
+					"biome_link": "https://biomejs.dev/linter/rules/use-global-this",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-import-meta-properties",
@@ -4514,7 +4527,9 @@
 				{
 					"source_rule_name": "input-name",
 					"source_link": "https://the-guild.dev/graphql/eslint/rules/input-name",
-					"state": "missing"
+					"biome_rule_name": "useInputName",
+					"biome_link": "https://biomejs.dev/linter/rules/use-input-name",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "known-argument-names",
@@ -5894,7 +5909,9 @@
 				{
 					"source_rule_name": "no-arrow-functions-in-watch",
 					"source_link": "https://eslint.vuejs.org/rules/no-arrow-functions-in-watch",
-					"state": "missing"
+					"biome_rule_name": "noVueArrowFuncInWatch",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-arrow-func-in-watch",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-async-in-computed-properties",
