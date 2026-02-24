@@ -2065,6 +2065,11 @@
 			"name": "eslint-plugin-react",
 			"rules": [
 				{
+					"source_rule_name": "async-server-action",
+					"source_link": "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/async-server-action.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "boolean-prop-naming",
 					"source_link": "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md",
 					"state": "missing"
@@ -3003,6 +3008,11 @@
 				{
 					"source_rule_name": "consistent-function-scoping",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-function-scoping.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "consistent-template-literal-escape",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-template-literal-escape.md",
 					"state": "missing"
 				},
 				{
@@ -4095,7 +4105,9 @@
 				{
 					"source_rule_name": "expect-expect",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/expect-expect.md",
-					"state": "missing"
+					"biome_rule_name": "useExpect",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "max-expects",
@@ -4122,7 +4134,9 @@
 				{
 					"source_rule_name": "no-conditional-expect",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-conditional-expect.md",
-					"state": "missing"
+					"biome_rule_name": "noConditionalExpect",
+					"biome_link": "https://biomejs.dev/linter/rules/no-conditional-expect",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-conditional-in-test",
@@ -4484,7 +4498,9 @@
 				{
 					"source_rule_name": "expect-expect",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/expect-expect.md",
-					"state": "missing"
+					"biome_rule_name": "useExpect",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "hoisted-apis-on-top",
@@ -4516,7 +4532,9 @@
 				{
 					"source_rule_name": "no-conditional-expect",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-conditional-expect.md",
-					"state": "missing"
+					"biome_rule_name": "noConditionalExpect",
+					"biome_link": "https://biomejs.dev/linter/rules/no-conditional-expect",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-conditional-in-test",
@@ -5327,7 +5345,9 @@
 				{
 					"source_rule_name": "no-ref-as-operand",
 					"source_link": "https://eslint.vuejs.org/rules/no-ref-as-operand",
-					"state": "missing"
+					"biome_rule_name": "noVueRefAsOperand",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-ref-as-operand",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-reserved-component-names",
