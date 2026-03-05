@@ -1,6 +1,6 @@
-import { parse } from "node-html-parser";
 import type { Rule } from "../../src/interfaces/rule.ts";
 import type { CreateRule } from "../generator.ts";
+import { parse } from "../parser.ts";
 
 const BASE_URL = "https://typescript-eslint.io";
 
@@ -14,22 +14,25 @@ export const fetchEslintTypeScriptRules = async (
 
 	const html = parse(htmlPage);
 	const table = html.querySelector("table");
-	const rows = table?.querySelectorAll("tr") || [];
 
-	for (const row of rows) {
-		if (row.toString().includes("💀")) continue;
+	if (table) {
+		const rows = table.querySelectorAll("tr") || [];
 
-		const path = row.querySelector("a")?.getAttribute("href");
+		for (const row of rows) {
+			if (row.toString().includes("💀")) continue;
 
-		if (!path) continue;
+			const path = row.querySelector("a")?.getAttribute("href");
 
-		rules.push(
-			createRule(
-				"eslintTypeScript",
-				path.split("/").pop() || "",
-				`${BASE_URL}${path}`,
-			),
-		);
+			if (!path) continue;
+
+			rules.push(
+				createRule(
+					"eslintTypeScript",
+					path.split("/").pop() || "",
+					`${BASE_URL}${path}`,
+				),
+			);
+		}
 	}
 
 	return { name: "typescript-eslint", rules };

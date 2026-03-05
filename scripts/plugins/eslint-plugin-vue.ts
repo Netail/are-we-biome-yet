@@ -1,6 +1,6 @@
-import { parse } from "node-html-parser";
 import type { Rule } from "../../src/interfaces/rule.ts";
 import type { CreateRule } from "../generator.ts";
+import { parse } from "../parser.ts";
 
 const BASE_URL = "https://eslint.vuejs.org";
 

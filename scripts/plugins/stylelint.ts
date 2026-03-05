@@ -1,6 +1,6 @@
-import { parse } from "node-html-parser";
 import type { Rule } from "../../src/interfaces/rule.ts";
 import type { CreateRule } from "../generator.ts";
+import { parse } from "../parser.ts";
 
 const BASE_URL = "https://stylelint.io";
 
@@ -12,14 +12,14 @@ export const fetchStylelintRules = async (
 	const response = await fetch(`${BASE_URL}/user-guide/rules/`);
 	const htmlPage = await response.text();
 
-	const tables = htmlPage.matchAll(/<table(.*)<\/table>/g);
+	const html = parse(htmlPage);
+	const tables = html.querySelectorAll("table") || [];
 
 	for (const table of tables) {
-		const html = parse(table[0]);
-		const rows = html.querySelectorAll("a") || [];
+		const rows = table.querySelectorAll("tr") || [];
 
 		for (const row of rows) {
-			const path = row.getAttribute("href");
+			const path = row.querySelector("a")?.getAttribute("href");
 
 			if (!path) continue;
 
