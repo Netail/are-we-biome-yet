@@ -14,8 +14,8 @@ const Page = async () => {
 	return (
 		<div className={css.container}>
 			<h1>Are We Biome Yet?</h1>
-			<p>
-				{available} of {total} rules have been implemented ({percentage}%)
+			<p title="The count does not include rules that have no source reference or sources that are not specified on this website. Also, not all rules should/will be implemented. E.g. some are build into the parser.">
+				{available} of {total} rules have been implemented ({percentage}%)*
 			</p>
 
 			{plugins.map((plugin) => {
@@ -26,7 +26,7 @@ const Page = async () => {
 						<summary>
 							<h2>
 								{plugin.name} ({available} / {total} - {percentage}%
-								{percentage === 100 ? " 🎉" : ""})
+								{percentage >= 100 ? " 🎉" : ""})
 							</h2>
 						</summary>
 						<HeatMap rules={plugin.rules} />

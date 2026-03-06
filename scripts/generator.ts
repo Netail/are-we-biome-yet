@@ -5,6 +5,7 @@ import { fetchEslintRules } from "./plugins/eslint.ts";
 import { fetchEslintPluginGraphqlRules } from "./plugins/eslint-plugin-graphql.ts";
 import { fetchEslintPluginImportRules } from "./plugins/eslint-plugin-import.ts";
 import { fetchEslintPluginJestRules } from "./plugins/eslint-plugin-jest.ts";
+import { fetchEslintPluginJsonRules } from "./plugins/eslint-plugin-json.ts";
 import { fetchEslintPluginJSXA11YRules } from "./plugins/eslint-plugin-jsx-a11y.ts";
 import { fetchEslintPluginNextRules } from "./plugins/eslint-plugin-next.ts";
 import { fetchEslintPluginQwikRules } from "./plugins/eslint-plugin-qwik.ts";
@@ -17,6 +18,11 @@ import { fetchEslintPluginVitestRules } from "./plugins/eslint-plugin-vitest.ts"
 import { fetchEslintPluginVueRules } from "./plugins/eslint-plugin-vue.ts";
 import { fetchEslintTypeScriptRules } from "./plugins/eslint-typescript.ts";
 import { fetchStylelintRules } from "./plugins/stylelint.ts";
+import { fetchEslintPluginMarkdownRules } from "./plugins/eslint-plugin-markdown.ts";
+import { fetchEslintPluginPlaywrightRules } from "./plugins/eslint-plugin-playwright.ts";
+import { fetchEslintPluginCypressRules } from "./plugins/eslint-plugin-cypress.ts";
+import { fetchEslintPluginYmlRules } from "./plugins/eslint-plugin-yml.ts";
+import { fetchEslintPluginE18eRules } from "./plugins/eslint-plugin-e18e.ts";
 
 export interface BiomeMetaDataRule {
 	name: string;
@@ -105,6 +111,12 @@ const yoink = async () => {
 		await fetchEslintPluginSolidRules(createRule),
 		await fetchEslintPluginNextRules(createRule),
 		await fetchEslintPluginStylisticRules(createRule),
+		await fetchEslintPluginJsonRules(createRule),
+		await fetchEslintPluginMarkdownRules(createRule),
+		await fetchEslintPluginPlaywrightRules(createRule),
+		await fetchEslintPluginCypressRules(createRule),
+		await fetchEslintPluginYmlRules(createRule),
+		await fetchEslintPluginE18eRules(createRule),
 	];
 
 	console.table(
