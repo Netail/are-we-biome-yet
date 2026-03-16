@@ -76,6 +76,26 @@ const createRuleCaller =
 			}
 		}
 
+		for (const language of Object.values(metaData.assist.languages)) {
+			for (const biomeRule of Object.values(language.source)) {
+				if (biomeRule.sources && biomeRule.sources.length > 0) {
+					const source = biomeRule.sources.find(
+						(source) => source.source[plugin] === rule,
+					);
+
+					if (source) {
+						return {
+							source_rule_name: rule,
+							source_link: url,
+							biome_rule_name: biomeRule.name,
+							biome_link: biomeRule.link,
+							state: source.kind === "sameLogic" ? "same" : "inspired",
+						};
+					}
+				}
+			}
+		}
+
 		return {
 			source_rule_name: rule,
 			source_link: url,
