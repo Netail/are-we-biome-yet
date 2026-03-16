@@ -47,6 +47,15 @@ export interface BiomeMetaData {
 			};
 		};
 	};
+	assist: {
+		languages: {
+			[language: string]: {
+				source: {
+					[rule: string]: BiomeMetaDataRule;
+				};
+			};
+		};
+	};
 }
 
 export type CreateRule = (plugin: string, rule: string, url: string) => Rule;
