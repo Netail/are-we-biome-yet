@@ -398,7 +398,9 @@
 				{
 					"source_rule_name": "no-duplicate-imports",
 					"source_link": "https://eslint.org/docs/latest/rules/no-duplicate-imports",
-					"state": "missing"
+					"biome_rule_name": "organizeImports",
+					"biome_link": "https://biomejs.dev/linter/rules/organize-imports",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-else-return",
@@ -1231,7 +1233,9 @@
 				{
 					"source_rule_name": "sort-imports",
 					"source_link": "https://eslint.org/docs/latest/rules/sort-imports",
-					"state": "missing"
+					"biome_rule_name": "organizeImports",
+					"biome_link": "https://biomejs.dev/linter/rules/organize-imports",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "sort-keys",
@@ -3115,7 +3119,9 @@
 				{
 					"source_rule_name": "jsx-sort-props",
 					"source_link": "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md",
-					"state": "missing"
+					"biome_rule_name": "useSortedAttributes",
+					"biome_link": "https://biomejs.dev/linter/rules/use-sorted-attributes",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "jsx-tag-spacing",
@@ -5907,7 +5913,9 @@
 				{
 					"source_rule_name": "order",
 					"source_link": "https://github.com/import-js/eslint-plugin-import/tree/main/docs/rules/order.md",
-					"state": "missing"
+					"biome_rule_name": "organizeImports",
+					"biome_link": "https://biomejs.dev/linter/rules/organize-imports",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "prefer-default-export",
@@ -6925,6 +6933,11 @@
 				{
 					"source_rule_name": "prefer-separate-static-class",
 					"source_link": "https://eslint.vuejs.org/rules/prefer-separate-static-class",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-single-event-payload",
+					"source_link": "https://eslint.vuejs.org/rules/prefer-single-event-payload",
 					"state": "missing"
 				},
 				{
@@ -8054,7 +8067,9 @@
 				{
 					"source_rule_name": "sort-keys",
 					"source_link": "https://github.com/eslint/json/blob/main/./docs/rules/sort-keys.md",
-					"state": "missing"
+					"biome_rule_name": "useSortedKeys",
+					"biome_link": "https://biomejs.dev/linter/rules/use-sorted-keys",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "top-level-interop",
