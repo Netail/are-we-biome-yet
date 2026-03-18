@@ -2,12 +2,17 @@ import { writeFileSync } from "node:fs";
 import type { Rule } from "../src/interfaces/rule.ts";
 import { calculate } from "../src/utils/calculate.ts";
 import { fetchEslintRules } from "./plugins/eslint.ts";
+import { fetchEslintPluginCypressRules } from "./plugins/eslint-plugin-cypress.ts";
+import { fetchEslintPluginE18eRules } from "./plugins/eslint-plugin-e18e.ts";
 import { fetchEslintPluginGraphqlRules } from "./plugins/eslint-plugin-graphql.ts";
+import { fetchEslintPluginHtmlRules } from "./plugins/eslint-plugin-html.ts";
 import { fetchEslintPluginImportRules } from "./plugins/eslint-plugin-import.ts";
 import { fetchEslintPluginJestRules } from "./plugins/eslint-plugin-jest.ts";
 import { fetchEslintPluginJsonRules } from "./plugins/eslint-plugin-json.ts";
 import { fetchEslintPluginJSXA11YRules } from "./plugins/eslint-plugin-jsx-a11y.ts";
+import { fetchEslintPluginMarkdownRules } from "./plugins/eslint-plugin-markdown.ts";
 import { fetchEslintPluginNextRules } from "./plugins/eslint-plugin-next.ts";
+import { fetchEslintPluginPlaywrightRules } from "./plugins/eslint-plugin-playwright.ts";
 import { fetchEslintPluginQwikRules } from "./plugins/eslint-plugin-qwik.ts";
 import { fetchEslintPluginReactRules } from "./plugins/eslint-plugin-react.ts";
 import { fetchEslintPluginReactHooksRules } from "./plugins/eslint-plugin-react-hooks.ts";
@@ -16,13 +21,9 @@ import { fetchEslintPluginStylisticRules } from "./plugins/eslint-plugin-stylist
 import { fetchEslintPluginUnicornRules } from "./plugins/eslint-plugin-unicorn.ts";
 import { fetchEslintPluginVitestRules } from "./plugins/eslint-plugin-vitest.ts";
 import { fetchEslintPluginVueRules } from "./plugins/eslint-plugin-vue.ts";
+import { fetchEslintPluginYmlRules } from "./plugins/eslint-plugin-yml.ts";
 import { fetchEslintTypeScriptRules } from "./plugins/eslint-typescript.ts";
 import { fetchStylelintRules } from "./plugins/stylelint.ts";
-import { fetchEslintPluginMarkdownRules } from "./plugins/eslint-plugin-markdown.ts";
-import { fetchEslintPluginPlaywrightRules } from "./plugins/eslint-plugin-playwright.ts";
-import { fetchEslintPluginCypressRules } from "./plugins/eslint-plugin-cypress.ts";
-import { fetchEslintPluginYmlRules } from "./plugins/eslint-plugin-yml.ts";
-import { fetchEslintPluginE18eRules } from "./plugins/eslint-plugin-e18e.ts";
 
 export interface BiomeMetaDataRule {
 	name: string;
@@ -146,6 +147,7 @@ const yoink = async () => {
 		await fetchEslintPluginCypressRules(createRule),
 		await fetchEslintPluginYmlRules(createRule),
 		await fetchEslintPluginE18eRules(createRule),
+		await fetchEslintPluginHtmlRules(createRule),
 	];
 
 	console.table(
