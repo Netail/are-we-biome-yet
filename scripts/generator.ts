@@ -59,11 +59,25 @@ export interface BiomeMetaData {
 	};
 }
 
-export type CreateRule = (plugin: string, rule: string, url: string) => Rule;
+export type CreateRule = (
+	plugin: string,
+	rule: string,
+	url: string,
+	outOfScopeMap?: Record<string, string>,
+) => Rule;
 
 const createRuleCaller =
 	(metaData: BiomeMetaData): CreateRule =>
-	(plugin, rule, url) => {
+	(plugin, rule, url, outOfScopeMap) => {
+		if (outOfScopeMap?.[rule]) {
+			return {
+				source_rule_name: rule,
+				source_link: url,
+				state: "out-of-scope",
+				description: outOfScopeMap[rule],
+			};
+		}
+
 		for (const language of Object.values(metaData.lints.languages)) {
 			for (const group of Object.values(language)) {
 				for (const biomeRule of Object.values(group)) {

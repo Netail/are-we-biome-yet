@@ -8,5 +8,6 @@ export interface Rule {
 	source_link: string;
 	biome_rule_name?: string;
 	biome_link?: string;
-	state: "same" | "inspired" | "missing";
+	state: "same" | "inspired" | "missing" | "out-of-scope";
+	description?: string;
 }

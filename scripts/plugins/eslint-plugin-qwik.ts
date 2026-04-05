@@ -1,6 +1,10 @@
 import type { Rule } from "../../src/interfaces/rule.ts";
 import type { CreateRule } from "../generator.ts";
 
+const OUT_OF_SCOPE: Record<string, string> = {
+	"unused-server": "covered by noUnusedVariables",
+};
+
 export const fetchEslintPluginQwikRules = async (
 	createRule: CreateRule,
 ): Promise<{ name: string; rules: Rule[] }> => {
@@ -26,7 +30,14 @@ export const fetchEslintPluginQwikRules = async (
 
 			const [_, name, url] = parts;
 
-			rules.push(createRule("eslintQwik", name.split("/").pop() || "", url));
+			rules.push(
+				createRule(
+					"eslintQwik",
+					name.split("/").pop() || "",
+					url,
+					OUT_OF_SCOPE,
+				),
+			);
 		});
 
 	return {

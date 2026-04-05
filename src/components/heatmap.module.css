@@ -20,3 +20,7 @@
 .missing {
 	background-color: red;
 }
+
+.out-of-scope {
+	background-color: #1a1a1a;
+}

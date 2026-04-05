@@ -14,7 +14,7 @@ export const HeatMap = ({ rules }: { rules: Rule[] }) => {
 					key={rule.source_rule_name}
 					href={rule.biome_link || rule.source_link}
 					target="_blank"
-					title={`${rule.source_rule_name} (${rule.biome_rule_name || "missing"})`}
+					title={`${rule.source_rule_name} (${rule.state === "out-of-scope" ? rule.description : rule.biome_rule_name || "missing"})`}
 					className={clsx(css.heatmapItem, css[rule.state])}
 				/>
 			))}
