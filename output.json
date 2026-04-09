@@ -7314,7 +7314,9 @@
 				{
 					"source_rule_name": "loader-location",
 					"source_link": "https://qwik.dev/docs/advanced/eslint/#loader-location",
-					"state": "missing"
+					"biome_rule_name": "useQwikLoaderLocation",
+					"biome_link": "https://biomejs.dev/linter/rules/use-qwik-loader-location",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-classlist",
