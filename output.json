@@ -614,7 +614,9 @@
 				{
 					"source_rule_name": "no-magic-numbers",
 					"source_link": "https://eslint.org/docs/latest/rules/no-magic-numbers",
-					"state": "missing"
+					"biome_rule_name": "noMagicNumbers",
+					"biome_link": "https://biomejs.dev/linter/rules/no-magic-numbers",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-misleading-character-class",
@@ -1289,7 +1291,9 @@
 				{
 					"source_rule_name": "vars-on-top",
 					"source_link": "https://eslint.org/docs/latest/rules/vars-on-top",
-					"state": "missing"
+					"biome_rule_name": "useVarsOnTop",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vars-on-top",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "yoda",
@@ -1975,7 +1979,9 @@
 				{
 					"source_rule_name": "prefer-reduce-type-parameter",
 					"source_link": "https://typescript-eslint.io/rules/prefer-reduce-type-parameter",
-					"state": "missing"
+					"biome_rule_name": "useReduceTypeParameter",
+					"biome_link": "https://biomejs.dev/linter/rules/use-reduce-type-parameter",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "prefer-regexp-exec",
@@ -1992,7 +1998,9 @@
 				{
 					"source_rule_name": "prefer-string-starts-ends-with",
 					"source_link": "https://typescript-eslint.io/rules/prefer-string-starts-ends-with",
-					"state": "missing"
+					"biome_rule_name": "useStringStartsEndsWith",
+					"biome_link": "https://biomejs.dev/linter/rules/use-string-starts-ends-with",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "promise-function-async",
@@ -2665,7 +2673,9 @@
 				{
 					"source_rule_name": "selector-max-class",
 					"source_link": "https://stylelint.io/user-guide/rules/selector-max-class",
-					"state": "missing"
+					"biome_rule_name": "noExcessiveSelectorClasses",
+					"biome_link": "https://biomejs.dev/linter/rules/no-excessive-selector-classes",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "selector-max-combinators",
@@ -2860,7 +2870,9 @@
 				{
 					"source_rule_name": "async-server-action",
 					"source_link": "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/async-server-action.md",
-					"state": "missing"
+					"biome_rule_name": "useReactAsyncServerFunction",
+					"biome_link": "https://biomejs.dev/linter/rules/use-react-async-server-function",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "boolean-prop-naming",
@@ -3433,7 +3445,9 @@
 				{
 					"source_rule_name": "component-hook-factories",
 					"source_link": "https://react.dev/reference/eslint-plugin-react-hooks/lints/component-hook-factories",
-					"state": "missing"
+					"biome_rule_name": "noComponentHookFactories",
+					"biome_link": "https://biomejs.dev/linter/rules/no-component-hook-factories",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "config",
@@ -4011,7 +4025,9 @@
 				{
 					"source_rule_name": "no-nested-ternary",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-nested-ternary.md",
-					"state": "missing"
+					"biome_rule_name": "noNestedTernary",
+					"biome_link": "https://biomejs.dev/linter/rules/no-nested-ternary",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-new-array",
@@ -5010,7 +5026,9 @@
 				{
 					"source_rule_name": "no-identical-title",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-identical-title.md",
-					"state": "missing"
+					"biome_rule_name": "noIdenticalTestTitle",
+					"biome_link": "https://biomejs.dev/linter/rules/no-identical-test-title",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-interpolation-in-snapshots",
@@ -5391,7 +5409,9 @@
 				{
 					"source_rule_name": "no-identical-title",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-identical-title.md",
-					"state": "missing"
+					"biome_rule_name": "noIdenticalTestTitle",
+					"biome_link": "https://biomejs.dev/linter/rules/no-identical-test-title",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-import-node-test",
@@ -9038,7 +9058,9 @@
 				{
 					"source_rule_name": "use-baseline",
 					"source_link": "https://html-eslint.org/docs/rulesrules/use-baseline",
-					"state": "missing"
+					"biome_rule_name": "useBaseline",
+					"biome_link": "https://biomejs.dev/linter/rules/use-baseline",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-multiple-h1",
