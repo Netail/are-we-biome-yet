@@ -602,7 +602,9 @@
 				{
 					"source_rule_name": "no-loop-func",
 					"source_link": "https://eslint.org/docs/latest/rules/no-loop-func",
-					"state": "missing"
+					"biome_rule_name": "noLoopFunc",
+					"biome_link": "https://biomejs.dev/linter/rules/no-loop-func",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-loss-of-precision",
@@ -1596,7 +1598,9 @@
 				{
 					"source_rule_name": "no-loop-func",
 					"source_link": "https://typescript-eslint.io/rules/no-loop-func",
-					"state": "missing"
+					"biome_rule_name": "noLoopFunc",
+					"biome_link": "https://biomejs.dev/linter/rules/no-loop-func",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-magic-numbers",
@@ -1732,7 +1736,9 @@
 				{
 					"source_rule_name": "no-unnecessary-template-expression",
 					"source_link": "https://typescript-eslint.io/rules/no-unnecessary-template-expression",
-					"state": "missing"
+					"biome_rule_name": "noUnnecessaryTemplateExpression",
+					"biome_link": "https://biomejs.dev/linter/rules/no-unnecessary-template-expression",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-unnecessary-type-arguments",
@@ -2107,6 +2113,11 @@
 				{
 					"source_rule_name": "property-no-deprecated",
 					"source_link": "https://stylelint.io/user-guide/rules/property-no-deprecated",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "selector-no-deprecated",
+					"source_link": "https://stylelint.io/user-guide/rules/selector-no-deprecated",
 					"state": "missing"
 				},
 				{
@@ -2646,6 +2657,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "property-layout-mappings",
+					"source_link": "https://stylelint.io/user-guide/rules/property-layout-mappings",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "declaration-block-single-line-max-declarations",
 					"source_link": "https://stylelint.io/user-guide/rules/declaration-block-single-line-max-declarations",
 					"state": "missing"
@@ -2770,6 +2786,11 @@
 				{
 					"source_rule_name": "media-feature-range-notation",
 					"source_link": "https://stylelint.io/user-guide/rules/media-feature-range-notation",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "relative-selector-nesting-notation",
+					"source_link": "https://stylelint.io/user-guide/rules/relative-selector-nesting-notation",
 					"state": "missing"
 				},
 				{
@@ -3830,6 +3851,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "dom-node-dataset",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/dom-node-dataset.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "empty-brace-spaces",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/empty-brace-spaces.md",
 					"state": "missing"
@@ -4275,11 +4301,6 @@
 					"state": "missing"
 				},
 				{
-					"source_rule_name": "prefer-dom-node-dataset",
-					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-dataset.md",
-					"state": "missing"
-				},
-				{
 					"source_rule_name": "prefer-dom-node-remove",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-remove.md",
 					"state": "missing"
@@ -4287,7 +4308,9 @@
 				{
 					"source_rule_name": "prefer-dom-node-text-content",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-text-content.md",
-					"state": "missing"
+					"biome_rule_name": "useDomNodeTextContent",
+					"biome_link": "https://biomejs.dev/linter/rules/use-dom-node-text-content",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-event-target",
@@ -4400,7 +4423,9 @@
 				{
 					"source_rule_name": "prefer-query-selector",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-query-selector.md",
-					"state": "missing"
+					"biome_rule_name": "useDomQuerySelector",
+					"biome_link": "https://biomejs.dev/linter/rules/use-dom-query-selector",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "prefer-reflect-apply",
@@ -4410,7 +4435,9 @@
 				{
 					"source_rule_name": "prefer-regexp-test",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-regexp-test.md",
-					"state": "missing"
+					"biome_rule_name": "useRegexpTest",
+					"biome_link": "https://biomejs.dev/linter/rules/use-regexp-test",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-response-static-json",
