@@ -205,7 +205,9 @@
 				{
 					"source_rule_name": "max-nested-callbacks",
 					"source_link": "https://eslint.org/docs/latest/rules/max-nested-callbacks",
-					"state": "missing"
+					"biome_rule_name": "noExcessiveNestedCallbacks",
+					"biome_link": "https://biomejs.dev/linter/rules/no-excessive-nested-callbacks",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "max-params",
@@ -1702,7 +1704,9 @@
 				{
 					"source_rule_name": "no-shadow",
 					"source_link": "https://typescript-eslint.io/rules/no-shadow",
-					"state": "missing"
+					"biome_rule_name": "noShadow",
+					"biome_link": "https://biomejs.dev/linter/rules/no-shadow",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-this-alias",
@@ -2240,6 +2244,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "selector-no-invalid",
+					"source_link": "https://stylelint.io/user-guide/rules/selector-no-invalid",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "string-no-newline",
 					"source_link": "https://stylelint.io/user-guide/rules/string-no-newline",
 					"state": "missing"
@@ -2659,6 +2668,16 @@
 				{
 					"source_rule_name": "property-layout-mappings",
 					"source_link": "https://stylelint.io/user-guide/rules/property-layout-mappings",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "unit-layout-mappings",
+					"source_link": "https://stylelint.io/user-guide/rules/unit-layout-mappings",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "value-keyword-layout-mappings",
+					"source_link": "https://stylelint.io/user-guide/rules/value-keyword-layout-mappings",
 					"state": "missing"
 				},
 				{
@@ -3303,7 +3322,9 @@
 				{
 					"source_rule_name": "no-string-refs",
 					"source_link": "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md",
-					"state": "missing"
+					"biome_rule_name": "noReactStringRefs",
+					"biome_link": "https://biomejs.dev/linter/rules/no-react-string-refs",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-this-in-sfc",
@@ -3695,7 +3716,7 @@
 					"source_link": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-access-key.md",
 					"biome_rule_name": "noAccessKey",
 					"biome_link": "https://biomejs.dev/linter/rules/no-access-key",
-					"state": "same"
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-aria-hidden-on-focusable",
@@ -4357,7 +4378,9 @@
 				{
 					"source_rule_name": "prefer-math-min-max",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-min-max.md",
-					"state": "missing"
+					"biome_rule_name": "useMathMinMax",
+					"biome_link": "https://biomejs.dev/linter/rules/use-math-min-max",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-math-trunc",
@@ -5197,7 +5220,9 @@
 				{
 					"source_rule_name": "prefer-hooks-on-top",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-hooks-on-top.md",
-					"state": "missing"
+					"biome_rule_name": "useTestHooksOnTop",
+					"biome_link": "https://biomejs.dev/linter/rules/use-test-hooks-on-top",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-importing-jest-globals",
@@ -5600,7 +5625,9 @@
 				{
 					"source_rule_name": "prefer-hooks-on-top",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-hooks-on-top.md",
-					"state": "missing"
+					"biome_rule_name": "useTestHooksOnTop",
+					"biome_link": "https://biomejs.dev/linter/rules/use-test-hooks-on-top",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-import-in-mock",
@@ -8502,7 +8529,9 @@
 				{
 					"source_rule_name": "prefer-hooks-on-top",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/prefer-hooks-on-top.md",
-					"state": "missing"
+					"biome_rule_name": "useTestHooksOnTop",
+					"biome_link": "https://biomejs.dev/linter/rules/use-test-hooks-on-top",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-lowercase-title",
@@ -8880,6 +8909,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "ban-dependencies",
+					"source_link": "https://github.com/e18e/eslint-plugin/tree/main/./src/rules/ban-dependencies.ts",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-indexof-equality",
 					"source_link": "https://github.com/e18e/eslint-plugin/tree/main/./src/rules/no-indexof-equality.ts",
 					"state": "missing"
@@ -8919,6 +8953,21 @@
 				{
 					"source_rule_name": "prefer-inline-equality",
 					"source_link": "https://github.com/e18e/eslint-plugin/tree/main/./src/rules/prefer-inline-equality.ts",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-string-fromcharcode",
+					"source_link": "https://github.com/e18e/eslint-plugin/tree/main/./src/rules/prefer-string-fromcharcode.ts",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-includes-over-regex-test",
+					"source_link": "https://github.com/e18e/eslint-plugin/tree/main/./src/rules/prefer-includes-over-regex-test.ts",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-delete-property",
+					"source_link": "https://github.com/e18e/eslint-plugin/tree/main/./src/rules/no-delete-property.ts",
 					"state": "missing"
 				}
 			]
