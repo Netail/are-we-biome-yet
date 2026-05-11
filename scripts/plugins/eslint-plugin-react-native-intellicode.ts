@@ -1,7 +1,7 @@
 import type { Rule } from "../../src/interfaces/rule.ts";
 import type { CreateRule } from "../generator.ts";
 
-export const fetchEslintPluginReactNativeRules = async (
+export const fetchEslintPluginReactNativeIntellicodeRules = async (
 	createRule: CreateRule,
 ): Promise<{ name: string; rules: Rule[] }> => {
 	const rules: Rule[] = [];
@@ -23,7 +23,7 @@ export const fetchEslintPluginReactNativeRules = async (
 
 			rules.push(
 				createRule(
-					"eslintReactNative",
+					"eslintReactNativeIntellicode",
 					name,
 					`https://github.com/Intellicode/eslint-plugin-react-native/blob/master/${path}`,
 				),

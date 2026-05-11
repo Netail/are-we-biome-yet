@@ -17,7 +17,7 @@ import { fetchEslintPluginPlaywrightRules } from "./plugins/eslint-plugin-playwr
 import { fetchEslintPluginQwikRules } from "./plugins/eslint-plugin-qwik.ts";
 import { fetchEslintPluginReactRules } from "./plugins/eslint-plugin-react.ts";
 import { fetchEslintPluginReactHooksRules } from "./plugins/eslint-plugin-react-hooks.ts";
-import { fetchEslintPluginReactNativeRules } from "./plugins/eslint-plugin-react-native.ts";
+import { fetchEslintPluginReactNativeIntellicodeRules } from "./plugins/eslint-plugin-react-native-intellicode.ts";
 import { fetchEslintPluginReactPerfRules } from "./plugins/eslint-plugin-react-perf.ts";
 import { fetchEslintPluginReactXyzRules } from "./plugins/eslint-plugin-react-xyz.ts";
 import { fetchEslintPluginSolidRules } from "./plugins/eslint-plugin-solid.ts";
@@ -168,7 +168,7 @@ const yoink = async () => {
 		await fetchEslintPluginE18eRules(createRule),
 		await fetchEslintPluginHtmlRules(createRule),
 		await fetchEslintPluginCssRules(createRule),
-		await fetchEslintPluginReactNativeRules(createRule),
+		await fetchEslintPluginReactNativeIntellicodeRules(createRule),
 		await fetchEslintPluginReactXyzRules(createRule),
 		await fetchEslintPluginReactPerfRules(createRule),
 		await fetchEslintPluginSvelteRules(createRule),
