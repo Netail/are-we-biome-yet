@@ -2,6 +2,7 @@ import { writeFileSync } from "node:fs";
 import type { Rule } from "../src/interfaces/rule.ts";
 import { calculate } from "../src/utils/calculate.ts";
 import { fetchEslintRules } from "./plugins/eslint.ts";
+import { fetchEslintPluginCssRules } from "./plugins/eslint-plugin-css.ts";
 import { fetchEslintPluginCypressRules } from "./plugins/eslint-plugin-cypress.ts";
 import { fetchEslintPluginE18eRules } from "./plugins/eslint-plugin-e18e.ts";
 import { fetchEslintPluginGraphqlRules } from "./plugins/eslint-plugin-graphql.ts";
@@ -16,8 +17,12 @@ import { fetchEslintPluginPlaywrightRules } from "./plugins/eslint-plugin-playwr
 import { fetchEslintPluginQwikRules } from "./plugins/eslint-plugin-qwik.ts";
 import { fetchEslintPluginReactRules } from "./plugins/eslint-plugin-react.ts";
 import { fetchEslintPluginReactHooksRules } from "./plugins/eslint-plugin-react-hooks.ts";
+import { fetchEslintPluginReactNativeRules } from "./plugins/eslint-plugin-react-native.ts";
+import { fetchEslintPluginReactPerfRules } from "./plugins/eslint-plugin-react-perf.ts";
+import { fetchEslintPluginReactXyzRules } from "./plugins/eslint-plugin-react-xyz.ts";
 import { fetchEslintPluginSolidRules } from "./plugins/eslint-plugin-solid.ts";
 import { fetchEslintPluginStylisticRules } from "./plugins/eslint-plugin-stylistic.ts";
+import { fetchEslintPluginSvelteRules } from "./plugins/eslint-plugin-svelte.ts";
 import { fetchEslintPluginUnicornRules } from "./plugins/eslint-plugin-unicorn.ts";
 import { fetchEslintPluginVitestRules } from "./plugins/eslint-plugin-vitest.ts";
 import { fetchEslintPluginVueRules } from "./plugins/eslint-plugin-vue.ts";
@@ -162,6 +167,11 @@ const yoink = async () => {
 		await fetchEslintPluginYmlRules(createRule),
 		await fetchEslintPluginE18eRules(createRule),
 		await fetchEslintPluginHtmlRules(createRule),
+		await fetchEslintPluginCssRules(createRule),
+		await fetchEslintPluginReactNativeRules(createRule),
+		await fetchEslintPluginReactXyzRules(createRule),
+		await fetchEslintPluginReactPerfRules(createRule),
+		await fetchEslintPluginSvelteRules(createRule),
 	];
 
 	console.table(
