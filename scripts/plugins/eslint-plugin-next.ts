@@ -21,6 +21,7 @@ export const fetchEslintPluginNextRules = async (
 	for (const row of rows) {
 		const path = row.getAttribute("href");
 
+		// biome-ignore lint/complexity/useOptionalChain: false?
 		if (!path || !path.startsWith("/docs/messages")) continue;
 
 		rules.push(

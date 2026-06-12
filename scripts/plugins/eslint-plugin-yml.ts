@@ -9,7 +9,7 @@ export const fetchEslintPluginYmlRules = async (
 ): Promise<{ name: string; rules: Rule[] }> => {
 	const rules: Rule[] = [];
 
-const response = await fetch(`${BASE_URL}/rules`);
+	const response = await fetch(`${BASE_URL}/rules`);
 	const htmlPage = await response.text();
 
 	const html = parse(htmlPage);

@@ -21,13 +21,7 @@ export const fetchEslintPluginPlaywrightRules = async (
 
 			const [_, name, path] = parts;
 
-			rules.push(
-				createRule(
-					"eslintPlaywright",
-					name,
-					path,
-				),
-			);
+			rules.push(createRule("eslintPlaywright", name, path));
 		});
 
 	return {
