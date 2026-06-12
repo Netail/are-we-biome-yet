@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[35417,["/are-we-biome-yet/_next/static/chunks/7dfeab42587bcc0e.js"],"ViewportBoundary"]
-3:I[35417,["/are-we-biome-yet/_next/static/chunks/7dfeab42587bcc0e.js"],"MetadataBoundary"]
+2:I[35073,["/are-we-biome-yet/_next/static/chunks/1b7_wgb0tfe3t.js"],"ViewportBoundary"]
+3:I[35073,["/are-we-biome-yet/_next/static/chunks/1b7_wgb0tfe3t.js"],"MetadataBoundary"]
 4:"$Sreact.suspense"
-5:I[74534,["/are-we-biome-yet/_next/static/chunks/7dfeab42587bcc0e.js"],"IconMark"]
-0:{"buildId":"gkfqbuAZD1fna-isEItwG","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Are We biome Yet?"}],["$","meta","1",{"name":"description","content":"An overview of ported popular lint rules to Biome"}],["$","link","2",{"rel":"icon","href":"https://netail.dev/favicon.ico"}],["$","$L5","3",{}]]}]}]}],null]}],"loading":null,"isPartial":false}
+5:I[49481,["/are-we-biome-yet/_next/static/chunks/1b7_wgb0tfe3t.js"],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Are We biome Yet?"}],["$","meta","1",{"name":"description","content":"An overview of ported popular lint rules to Biome"}],["$","link","2",{"rel":"icon","href":"https://netail.dev/favicon.ico"}],["$","$L5","3",{}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"U826EpGStN06XIH5SQ-zQ"}
