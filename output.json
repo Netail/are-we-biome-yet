@@ -473,7 +473,9 @@
 				{
 					"source_rule_name": "no-extend-native",
 					"source_link": "https://eslint.org/docs/latest/rules/no-extend-native",
-					"state": "missing"
+					"biome_rule_name": "noExtendNative",
+					"biome_link": "https://biomejs.dev/linter/rules/no-extend-native",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-extra-bind",
@@ -788,7 +790,9 @@
 				{
 					"source_rule_name": "no-restricted-properties",
 					"source_link": "https://eslint.org/docs/latest/rules/no-restricted-properties",
-					"state": "missing"
+					"biome_rule_name": "noJsRestrictedProperties",
+					"biome_link": "https://biomejs.dev/linter/rules/no-js-restricted-properties",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-restricted-syntax",
@@ -3836,6 +3840,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "consistent-arrow-return-style",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-arrow-return-style.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "consistent-assert",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-assert.md",
 					"state": "missing"
@@ -3984,6 +3993,11 @@
 				{
 					"source_rule_name": "isolated-functions",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/isolated-functions.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "iteration-fallback-style",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/iteration-fallback-style.md",
 					"state": "missing"
 				},
 				{
@@ -4612,6 +4626,11 @@
 				{
 					"source_rule_name": "no-unsafe-property-key",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unsafe-property-key.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-unsafe-sqlite-interpolation",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unsafe-sqlite-interpolation.md",
 					"state": "missing"
 				},
 				{
@@ -5510,6 +5529,11 @@
 				{
 					"source_rule_name": "require-proxy-trap-boolean-return",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-proxy-trap-boolean-return.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "single-line-block-comment-style",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/single-line-block-comment-style.md",
 					"state": "missing"
 				},
 				{
@@ -7950,6 +7974,11 @@
 					"state": "inspired"
 				},
 				{
+					"source_rule_name": "no-shadow-native-events",
+					"source_link": "https://eslint.vuejs.org/rules/no-shadow-native-events",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-static-inline-styles",
 					"source_link": "https://eslint.vuejs.org/rules/no-static-inline-styles",
 					"state": "missing"
@@ -9479,6 +9508,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-unnecessary-assertions",
+					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-unnecessary-assertions.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-unsafe-references",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-unsafe-references.md",
 					"state": "missing"
@@ -9755,6 +9789,11 @@
 				{
 					"source_rule_name": "key-name-casing",
 					"source_link": "https://ota-meshi.github.io/eslint-plugin-yml/rules/./key-name-casing.html",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-boolean-key",
+					"source_link": "https://ota-meshi.github.io/eslint-plugin-yml/rules/./no-boolean-key.html",
 					"state": "missing"
 				},
 				{
@@ -10270,7 +10309,9 @@
 				{
 					"source_rule_name": "no-non-scalable-viewport",
 					"source_link": "https://html-eslint.org/docs/rulesrules/no-non-scalable-viewport",
-					"state": "missing"
+					"biome_rule_name": "noNonScalableViewport",
+					"biome_link": "https://biomejs.dev/linter/rules/no-non-scalable-viewport",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-positive-tabindex",
