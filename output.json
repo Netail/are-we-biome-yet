@@ -929,7 +929,9 @@
 				{
 					"source_rule_name": "no-unmodified-loop-condition",
 					"source_link": "https://eslint.org/docs/latest/rules/no-unmodified-loop-condition",
-					"state": "missing"
+					"biome_rule_name": "noUnmodifiedLoopCondition",
+					"biome_link": "https://biomejs.dev/linter/rules/no-unmodified-loop-condition/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unneeded-ternary",
@@ -3968,7 +3970,7 @@
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/explicit-length-check.md",
 					"biome_rule_name": "useExplicitLengthCheck",
 					"biome_link": "https://biomejs.dev/linter/rules/use-explicit-length-check/javascript",
-					"state": "same"
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "explicit-timer-delay",
@@ -4185,6 +4187,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-deprecated-css-features",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-deprecated-css-features.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-document-cookie",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md",
 					"biome_rule_name": "noDocumentCookie",
@@ -4194,6 +4201,16 @@
 				{
 					"source_rule_name": "no-double-comparison",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-double-comparison.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-duplicate-css-selectors",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-css-selectors.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-duplicate-font-family-names",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-font-family-names.md",
 					"state": "missing"
 				},
 				{
@@ -4293,6 +4310,13 @@
 				{
 					"source_rule_name": "no-invalid-file-input-accept",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-file-input-accept.md",
+					"biome_rule_name": "noInvalidFileInputAccept",
+					"biome_link": "https://biomejs.dev/linter/rules/no-invalid-file-input-accept/html",
+					"state": "same"
+				},
+				{
+					"source_rule_name": "no-invalid-media-features",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-media-features.md",
 					"state": "missing"
 				},
 				{
@@ -4397,6 +4421,11 @@
 					"state": "inspired"
 				},
 				{
+					"source_rule_name": "no-nesting-with-mixed-specificity",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-nesting-with-mixed-specificity.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-new-array",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-new-array.md",
 					"state": "missing"
@@ -4447,6 +4476,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-redundant-nested-style-rules",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-redundant-nested-style-rules.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-return-array-push",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-return-array-push.md",
 					"state": "missing"
@@ -4493,7 +4527,9 @@
 				{
 					"source_rule_name": "no-this-outside-of-class",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-outside-of-class.md",
-					"state": "missing"
+					"biome_rule_name": "noThisOutsideOfClass",
+					"biome_link": "https://biomejs.dev/linter/rules/no-this-outside-of-class/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-top-level-assignment-in-function",
@@ -4523,6 +4559,16 @@
 				{
 					"source_rule_name": "no-undeclared-class-members",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-undeclared-class-members.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-unknown-css-annotations",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unknown-css-annotations.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-unknown-pseudo-selectors",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unknown-pseudo-selectors.md",
 					"state": "missing"
 				},
 				{
@@ -4638,6 +4684,11 @@
 				{
 					"source_rule_name": "no-unsafe-string-replacement",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unsafe-string-replacement.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-unscoped-css-nesting-selector",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unscoped-css-nesting-selector.md",
 					"state": "missing"
 				},
 				{
@@ -5006,7 +5057,9 @@
 				{
 					"source_rule_name": "prefer-flat-math-min-max",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-flat-math-min-max.md",
-					"state": "missing"
+					"biome_rule_name": "useFlatMathMinMax",
+					"biome_link": "https://biomejs.dev/linter/rules/use-flat-math-min-max/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-get-or-insert-computed",
@@ -5133,6 +5186,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "prefer-media-feature-range-syntax",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-media-feature-range-syntax.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "prefer-minimal-ternary",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-minimal-ternary.md",
 					"state": "missing"
@@ -5145,7 +5203,9 @@
 				{
 					"source_rule_name": "prefer-modern-math-apis",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-math-apis.md",
-					"state": "missing"
+					"biome_rule_name": "useModernMathApis",
+					"biome_link": "https://biomejs.dev/linter/rules/use-modern-math-apis/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-module",
@@ -5581,6 +5641,21 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "`no-deprecated-css-features`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-deprecated-css-features.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-duplicate-css-selectors`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-css-selectors.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-duplicate-font-family-names`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-font-family-names.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "`no-empty-file`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md",
 					"state": "missing"
@@ -5588,6 +5663,11 @@
 				{
 					"source_rule_name": "`no-invalid-file-input-accept`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-file-input-accept.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-invalid-media-features`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-media-features.md",
 					"state": "missing"
 				},
 				{
@@ -5601,6 +5681,16 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "`no-nesting-with-mixed-specificity`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-nesting-with-mixed-specificity.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-redundant-nested-style-rules`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-redundant-nested-style-rules.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "`no-shorthand-property-overrides`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-shorthand-property-overrides.md",
 					"state": "missing"
@@ -5611,8 +5701,28 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "`no-unknown-css-annotations`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unknown-css-annotations.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-unknown-pseudo-selectors`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unknown-pseudo-selectors.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-unscoped-css-nesting-selector`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unscoped-css-nesting-selector.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "`prefer-explicit-viewport-units`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-explicit-viewport-units.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`prefer-media-feature-range-syntax`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-media-feature-range-syntax.md",
 					"state": "missing"
 				},
 				{
@@ -7126,7 +7236,9 @@
 				{
 					"source_rule_name": "no-deprecated-dollar-scopedslots-api",
 					"source_link": "https://eslint.vuejs.org/rules/no-deprecated-dollar-scopedslots-api",
-					"state": "missing"
+					"biome_rule_name": "noVueDeprecatedScopedSlots",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-deprecated-scoped-slots/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-deprecated-events-api",
@@ -8524,6 +8636,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-browser-globals-in-server-function",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-browser-globals-in-server-function.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-destructure",
 					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-destructure.md",
 					"biome_rule_name": "noSolidDestructuredProps",
@@ -8533,6 +8650,11 @@
 				{
 					"source_rule_name": "no-innerhtml",
 					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-innerhtml.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-invalid-server-capture",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-invalid-server-capture.md",
 					"state": "missing"
 				},
 				{
@@ -8605,6 +8727,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "require-async-server-function",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/require-async-server-function.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "self-closing-comp",
 					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/self-closing-comp.md",
 					"state": "missing"
@@ -8612,6 +8739,11 @@
 				{
 					"source_rule_name": "style-prop",
 					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/style-prop.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "valid-use-server",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/valid-use-server.md",
 					"state": "missing"
 				}
 			]
@@ -11077,17 +11209,23 @@
 				{
 					"source_rule_name": "naming-convention-context-name",
 					"source_link": "https://www.eslint-react.xyz//docs/rules/naming-convention-context-name",
-					"state": "missing"
+					"biome_rule_name": "useReactNamingConvention",
+					"biome_link": "https://biomejs.dev/linter/rules/use-react-naming-convention/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "naming-convention-id-name",
 					"source_link": "https://www.eslint-react.xyz//docs/rules/naming-convention-id-name",
-					"state": "missing"
+					"biome_rule_name": "useReactNamingConvention",
+					"biome_link": "https://biomejs.dev/linter/rules/use-react-naming-convention/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "naming-convention-ref-name",
 					"source_link": "https://www.eslint-react.xyz//docs/rules/naming-convention-ref-name",
-					"state": "missing"
+					"biome_rule_name": "useReactNamingConvention",
+					"biome_link": "https://biomejs.dev/linter/rules/use-react-naming-convention/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "debug-function-component",
