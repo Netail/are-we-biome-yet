@@ -130,7 +130,9 @@
 				{
 					"source_rule_name": "func-style",
 					"source_link": "https://eslint.org/docs/latest/rules/func-style",
-					"state": "missing"
+					"biome_rule_name": "useConsistentFunctionStyle",
+					"biome_link": "https://biomejs.dev/linter/rules/use-consistent-function-style/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "getter-return",
@@ -992,7 +994,7 @@
 					"source_link": "https://eslint.org/docs/latest/rules/no-unused-private-class-members",
 					"biome_rule_name": "noUnusedPrivateClassMembers",
 					"biome_link": "https://biomejs.dev/linter/rules/no-unused-private-class-members/javascript",
-					"state": "same"
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-unused-vars",
@@ -1575,6 +1577,11 @@
 					"biome_rule_name": "noForIn",
 					"biome_link": "https://biomejs.dev/linter/rules/no-for-in/javascript",
 					"state": "inspired"
+				},
+				{
+					"source_rule_name": "no-generated-empty-object-type",
+					"source_link": "https://typescript-eslint.io/rules/no-generated-empty-object-type",
+					"state": "missing"
 				},
 				{
 					"source_rule_name": "no-implied-eval",
@@ -2302,6 +2309,11 @@
 					"biome_rule_name": "noUnmatchableAnbSelector",
 					"biome_link": "https://biomejs.dev/linter/rules/no-unmatchable-anb-selector/css",
 					"state": "same"
+				},
+				{
+					"source_rule_name": "selector-no-unmatchable",
+					"source_link": "https://stylelint.io/user-guide/rules/selector-no-unmatchable",
+					"state": "missing"
 				},
 				{
 					"source_rule_name": "annotation-no-unknown",
@@ -3826,7 +3838,9 @@
 				{
 					"source_rule_name": "better-dom-traversing",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/better-dom-traversing.md",
-					"state": "missing"
+					"biome_rule_name": "useBetterDomTraversing",
+					"biome_link": "https://biomejs.dev/linter/rules/use-better-dom-traversing/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "catch-error-name",
@@ -4104,6 +4118,11 @@
 				{
 					"source_rule_name": "no-asterisk-prefix-in-documentation-comments",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-asterisk-prefix-in-documentation-comments.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-async-iterator-callback",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-async-iterator-callback.md",
 					"state": "missing"
 				},
 				{
@@ -4692,8 +4711,13 @@
 					"state": "missing"
 				},
 				{
-					"source_rule_name": "no-unused-array-method-return",
-					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unused-array-method-return.md",
+					"source_rule_name": "no-unused-builtin-method-return",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unused-builtin-method-return.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-unused-iterator-helper",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unused-iterator-helper.md",
 					"state": "missing"
 				},
 				{
@@ -4787,6 +4811,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-useless-set-construction",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-set-construction.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-useless-spread",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-spread.md",
 					"state": "missing"
@@ -4811,9 +4840,16 @@
 					"state": "same"
 				},
 				{
+					"source_rule_name": "no-using-resource-escape",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-using-resource-escape.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-xor-as-exponentiation",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-xor-as-exponentiation.md",
-					"state": "missing"
+					"biome_rule_name": "noXorAsExponentiation",
+					"biome_link": "https://biomejs.dev/linter/rules/no-xor-as-exponentiation/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-zero-fractions",
@@ -5141,6 +5177,16 @@
 				{
 					"source_rule_name": "prefer-iterator-to-array-at-end",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-iterator-to-array-at-end.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-iterator-zip",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-iterator-zip.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-json-import",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-import.md",
 					"state": "missing"
 				},
 				{
@@ -5472,6 +5518,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "prefer-temporal-conversion",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-temporal-conversion.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "prefer-ternary",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-ternary.md",
 					"state": "missing"
@@ -5504,6 +5555,11 @@
 				{
 					"source_rule_name": "prefer-uint8array-base64",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-uint8array-base64.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-uint8array-hex",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-uint8array-hex.md",
 					"state": "missing"
 				},
 				{
@@ -6456,7 +6512,9 @@
 				{
 					"source_rule_name": "valid-title",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/valid-title.md",
-					"state": "missing"
+					"biome_rule_name": "useValidTestTitle",
+					"biome_link": "https://biomejs.dev/linter/rules/use-valid-test-title/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-error-equal",
@@ -6903,7 +6961,9 @@
 				{
 					"source_rule_name": "valid-title",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/valid-title.md",
-					"state": "missing"
+					"biome_rule_name": "useValidTestTitle",
+					"biome_link": "https://biomejs.dev/linter/rules/use-valid-test-title/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "warn-todo",
@@ -7474,7 +7534,9 @@
 				{
 					"source_rule_name": "prefer-import-from-vue",
 					"source_link": "https://eslint.vuejs.org/rules/prefer-import-from-vue",
-					"state": "missing"
+					"biome_rule_name": "useVueBaseImport",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-base-import/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "require-component-is",
@@ -8636,6 +8698,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-boolean-enumerated-attribute",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-boolean-enumerated-attribute.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-browser-globals-in-server-function",
 					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-browser-globals-in-server-function.md",
 					"state": "missing"
@@ -8690,8 +8757,23 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-store-mutation-outside-setter",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-store-mutation-outside-setter.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-unknown-namespaces",
 					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-unknown-namespaces.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-unused-signal",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-unused-signal.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-write-in-pure-computation",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-write-in-pure-computation.md",
 					"state": "missing"
 				},
 				{
@@ -9548,6 +9630,11 @@
 					"state": "same"
 				},
 				{
+					"source_rule_name": "no-action-timeout",
+					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-action-timeout.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-commented-out-tests",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-commented-out-tests.md",
 					"state": "missing"
@@ -9589,6 +9676,11 @@
 					"state": "same"
 				},
 				{
+					"source_rule_name": "no-export",
+					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-export.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-focused-test",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-focused-test.md",
 					"state": "missing"
@@ -9608,6 +9700,16 @@
 				{
 					"source_rule_name": "no-hooks",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-hooks.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-identical-title",
+					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-identical-title.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-magic-timeouts",
+					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-magic-timeouts.md",
 					"state": "missing"
 				},
 				{
@@ -9672,6 +9774,16 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-template-literal-title",
+					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-template-literal-title.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-test-return-statement",
+					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-test-return-statement.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-unnecessary-assertions",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-unnecessary-assertions.md",
 					"state": "missing"
@@ -9722,6 +9834,11 @@
 				{
 					"source_rule_name": "prefer-comparison-matcher",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/prefer-comparison-matcher.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-ending-with-an-expect",
+					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/prefer-ending-with-an-expect.md",
 					"state": "missing"
 				},
 				{
@@ -9786,6 +9903,11 @@
 				{
 					"source_rule_name": "prefer-web-first-assertions",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/prefer-web-first-assertions.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "require-annotation-reason",
+					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/require-annotation-reason.md",
 					"state": "missing"
 				},
 				{
@@ -10309,7 +10431,9 @@
 				{
 					"source_rule_name": "no-obsolete-tags",
 					"source_link": "https://html-eslint.org/docs/rulesrules/no-obsolete-tags",
-					"state": "missing"
+					"biome_rule_name": "noObsoleteTags",
+					"biome_link": "https://biomejs.dev/linter/rules/no-obsolete-tags/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-restricted-attr-values",
@@ -10697,8 +10821,8 @@
 				{
 					"source_rule_name": "use-layers",
 					"source_link": "https://github.com/eslint/css/blob/main/./docs/rules/use-layers.md",
-					"biome_rule_name": "useNamedLayer",
-					"biome_link": "https://biomejs.dev/linter/rules/use-named-layer/css",
+					"biome_rule_name": "useLayeredStyles",
+					"biome_link": "https://biomejs.dev/linter/rules/use-layered-styles/css",
 					"state": "inspired"
 				}
 			]
@@ -11155,7 +11279,9 @@
 				{
 					"source_rule_name": "dom-no-unsafe-iframe-sandbox",
 					"source_link": "https://www.eslint-react.xyz//docs/rules/dom-no-unsafe-iframe-sandbox",
-					"state": "missing"
+					"biome_rule_name": "noUnsafeIframeSandbox",
+					"biome_link": "https://biomejs.dev/linter/rules/no-unsafe-iframe-sandbox/html",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "dom-no-unsafe-target-blank",
@@ -11395,7 +11521,9 @@
 				{
 					"source_rule_name": "no-at-html-tags",
 					"source_link": "https://sveltejs.github.io/eslint-plugin-svelte/rules/no-at-html-tags/",
-					"state": "missing"
+					"biome_rule_name": "noSvelteAtHtmlTags",
+					"biome_link": "https://biomejs.dev/linter/rules/no-svelte-at-html-tags/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-target-blank",
