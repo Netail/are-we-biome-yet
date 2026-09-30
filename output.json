@@ -1182,7 +1182,9 @@
 				{
 					"source_rule_name": "prefer-promise-reject-errors",
 					"source_link": "https://eslint.org/docs/latest/rules/prefer-promise-reject-errors",
-					"state": "missing"
+					"biome_rule_name": "usePromiseRejectErrors",
+					"biome_link": "https://biomejs.dev/linter/rules/use-promise-reject-errors/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-regex-literals",
@@ -1624,7 +1626,9 @@
 				{
 					"source_rule_name": "no-meaningless-void-operator",
 					"source_link": "https://typescript-eslint.io/rules/no-meaningless-void-operator",
-					"state": "missing"
+					"biome_rule_name": "noMeaninglessVoidOperator",
+					"biome_link": "https://biomejs.dev/linter/rules/no-meaningless-void-operator/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-misused-new",
@@ -1797,6 +1801,11 @@
 					"biome_rule_name": "noUnsafeDeclarationMerging",
 					"biome_link": "https://biomejs.dev/linter/rules/no-unsafe-declaration-merging/javascript",
 					"state": "same"
+				},
+				{
+					"source_rule_name": "no-unsafe-enum-assignment",
+					"source_link": "https://typescript-eslint.io/rules/no-unsafe-enum-assignment",
+					"state": "missing"
 				},
 				{
 					"source_rule_name": "no-unsafe-enum-comparison",
@@ -2061,7 +2070,9 @@
 				{
 					"source_rule_name": "strict-boolean-expressions",
 					"source_link": "https://typescript-eslint.io/rules/strict-boolean-expressions",
-					"state": "missing"
+					"biome_rule_name": "useStrictBooleanExpressions",
+					"biome_link": "https://biomejs.dev/linter/rules/use-strict-boolean-expressions/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "strict-void-return",
@@ -3314,7 +3325,9 @@
 				{
 					"source_rule_name": "no-object-type-as-default-prop",
 					"source_link": "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-object-type-as-default-prop.md",
-					"state": "missing"
+					"biome_rule_name": "noReactObjectTypeAsDefaultProp",
+					"biome_link": "https://biomejs.dev/linter/rules/no-react-object-type-as-default-prop/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-redundant-should-component-update",
@@ -4009,6 +4022,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "indent",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/indent.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "isolated-functions",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/isolated-functions.md",
 					"state": "missing"
@@ -4019,8 +4037,18 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "key-name-casing",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/key-name-casing.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "logical-assignment-operators",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/logical-assignment-operators.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "lowercase-css",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/lowercase-css.md",
 					"state": "missing"
 				},
 				{
@@ -4201,6 +4229,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-declarations-after-nested-rules",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-declarations-after-nested-rules.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-declarations-before-early-exit",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-declarations-before-early-exit.md",
 					"state": "missing"
@@ -4208,6 +4241,11 @@
 				{
 					"source_rule_name": "no-deprecated-css-features",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-deprecated-css-features.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-descending-specificity",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-descending-specificity.md",
 					"state": "missing"
 				},
 				{
@@ -4245,6 +4283,11 @@
 				{
 					"source_rule_name": "no-duplicate-loops",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-loops.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-duplicate-properties",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-properties.md",
 					"state": "missing"
 				},
 				{
@@ -4294,6 +4337,11 @@
 				{
 					"source_rule_name": "no-impossible-length-comparison",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-impossible-length-comparison.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-incomplete-accessor-override",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-incomplete-accessor-override.md",
 					"state": "missing"
 				},
 				{
@@ -4349,6 +4397,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-javascript-url",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-javascript-url.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-keyword-prefix",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-keyword-prefix.md",
 					"state": "missing"
@@ -4373,6 +4426,11 @@
 				{
 					"source_rule_name": "no-loop-iterable-mutation",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-loop-iterable-mutation.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-loss-of-precision",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-loss-of-precision.md",
 					"state": "missing"
 				},
 				{
@@ -4495,8 +4553,18 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-redundant-longhand-properties",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-redundant-longhand-properties.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-redundant-nested-style-rules",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-redundant-nested-style-rules.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-redundant-shorthand-values",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-redundant-shorthand-values.md",
 					"state": "missing"
 				},
 				{
@@ -4578,6 +4646,11 @@
 				{
 					"source_rule_name": "no-undeclared-class-members",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-undeclared-class-members.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-unknown-animations",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unknown-animations.md",
 					"state": "missing"
 				},
 				{
@@ -4857,6 +4930,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-zero-length-unit",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-zero-length-unit.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "number-literal-case",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/number-literal-case.md",
 					"state": "missing"
@@ -5007,6 +5085,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "prefer-combined-guards",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-combined-guards.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "prefer-continue",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-continue.md",
 					"state": "missing"
@@ -5073,6 +5156,11 @@
 				{
 					"source_rule_name": "prefer-error-is-error",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-error-is-error.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-escaped-irregular-whitespace",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-escaped-irregular-whitespace.md",
 					"state": "missing"
 				},
 				{
@@ -5147,7 +5235,9 @@
 				{
 					"source_rule_name": "prefer-includes",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-includes.md",
-					"state": "missing"
+					"biome_rule_name": "useIncludes",
+					"biome_link": "https://biomejs.dev/linter/rules/use-includes/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "prefer-includes-over-repeated-comparisons",
@@ -5192,6 +5282,11 @@
 				{
 					"source_rule_name": "prefer-keyboard-event-key",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-keyboard-event-key.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-literal-ascii",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-literal-ascii.md",
 					"state": "missing"
 				},
 				{
@@ -5335,6 +5430,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "prefer-promise-static-methods",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-promise-static-methods.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "prefer-promise-try",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-promise-try.md",
 					"state": "missing"
@@ -5406,6 +5506,16 @@
 				{
 					"source_rule_name": "prefer-short-arrow-method",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-short-arrow-method.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-short-escape-sequences",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-short-escape-sequences.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-short-hex-color",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-short-hex-color.md",
 					"state": "missing"
 				},
 				{
@@ -5692,13 +5802,68 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "`consistent-compound-words`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-compound-words.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`empty-brace-spaces`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/empty-brace-spaces.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`escape-case`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/escape-case.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "`expiring-todo-comments`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md",
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "`id-match`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/id-match.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`indent`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/indent.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`key-name-casing`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/key-name-casing.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`lowercase-css`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/lowercase-css.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`name-replacements`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/name-replacements.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-asterisk-prefix-in-documentation-comments`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-asterisk-prefix-in-documentation-comments.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-declarations-after-nested-rules`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-declarations-after-nested-rules.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "`no-deprecated-css-features`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-deprecated-css-features.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-descending-specificity`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-descending-specificity.md",
 					"state": "missing"
 				},
 				{
@@ -5709,6 +5874,11 @@
 				{
 					"source_rule_name": "`no-duplicate-font-family-names`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-font-family-names.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-duplicate-properties`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-properties.md",
 					"state": "missing"
 				},
 				{
@@ -5727,6 +5897,16 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "`no-javascript-url`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-javascript-url.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-loss-of-precision`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-loss-of-precision.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "`no-manually-wrapped-comments`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-manually-wrapped-comments.md",
 					"state": "missing"
@@ -5742,8 +5922,18 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "`no-redundant-longhand-properties`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-redundant-longhand-properties.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "`no-redundant-nested-style-rules`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-redundant-nested-style-rules.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-redundant-shorthand-values`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-redundant-shorthand-values.md",
 					"state": "missing"
 				},
 				{
@@ -5754,6 +5944,11 @@
 				{
 					"source_rule_name": "`no-transition-all`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-transition-all.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-unknown-animations`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unknown-animations.md",
 					"state": "missing"
 				},
 				{
@@ -5772,8 +5967,38 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "`no-zero-fractions`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-zero-fractions.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`no-zero-length-unit`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-zero-length-unit.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`number-literal-case`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/number-literal-case.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`numeric-separators-style`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/numeric-separators-style.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`prefer-escaped-irregular-whitespace`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-escaped-irregular-whitespace.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "`prefer-explicit-viewport-units`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-explicit-viewport-units.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`prefer-literal-ascii`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-literal-ascii.md",
 					"state": "missing"
 				},
 				{
@@ -5782,8 +6007,33 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "`prefer-short-escape-sequences`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-short-escape-sequences.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`prefer-short-hex-color`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-short-hex-color.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`relative-url-style`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/relative-url-style.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "`require-frontmatter-fields`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-frontmatter-fields.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`single-line-block-comment-style`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/single-line-block-comment-style.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`string-content`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md",
 					"state": "missing"
 				},
 				{
@@ -7112,7 +7362,9 @@
 				{
 					"source_rule_name": "no-self-import",
 					"source_link": "https://github.com/import-js/eslint-plugin-import/tree/main/docs/rules/no-self-import.md",
-					"state": "missing"
+					"biome_rule_name": "noSelfImport",
+					"biome_link": "https://biomejs.dev/linter/rules/no-self-import/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unresolved",
@@ -9464,12 +9716,16 @@
 				{
 					"source_rule_name": "no-unnormalized-keys",
 					"source_link": "https://github.com/eslint/json/blob/main/./docs/rules/no-unnormalized-keys.md",
-					"state": "missing"
+					"biome_rule_name": "useConsistentObjectKeys",
+					"biome_link": "https://biomejs.dev/linter/rules/use-consistent-object-keys/json",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unsafe-values",
 					"source_link": "https://github.com/eslint/json/blob/main/./docs/rules/no-unsafe-values.md",
-					"state": "missing"
+					"biome_rule_name": "noJsonUnsafeValues",
+					"biome_link": "https://biomejs.dev/linter/rules/no-json-unsafe-values/json",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "sort-keys",
@@ -10207,7 +10463,9 @@
 				{
 					"source_rule_name": "prefer-includes",
 					"source_link": "https://github.com/e18e/eslint-plugin/tree/main/./src/rules/prefer-includes.ts",
-					"state": "missing"
+					"biome_rule_name": "useIncludes",
+					"biome_link": "https://biomejs.dev/linter/rules/use-includes/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "prefer-array-to-reversed",
@@ -10505,7 +10763,9 @@
 				{
 					"source_rule_name": "require-li-container",
 					"source_link": "https://html-eslint.org/docs/rulesrules/require-li-container",
-					"state": "missing"
+					"biome_rule_name": "noMisplacedListElements",
+					"biome_link": "https://biomejs.dev/linter/rules/no-misplaced-list-elements/html",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "require-meta-charset",
@@ -11553,7 +11813,9 @@
 				{
 					"source_rule_name": "no-at-debug-tags",
 					"source_link": "https://sveltejs.github.io/eslint-plugin-svelte/rules/no-at-debug-tags/",
-					"state": "missing"
+					"biome_rule_name": "noSvelteAtDebugTags",
+					"biome_link": "https://biomejs.dev/linter/rules/no-svelte-at-debug-tags/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-ignored-unsubscribe",
