@@ -25,6 +25,7 @@ import { fetchEslintPluginStylisticRules } from "./plugins/eslint-plugin-stylist
 import { fetchEslintPluginSvelteRules } from "./plugins/eslint-plugin-svelte.ts";
 import { fetchEslintPluginUnicornRules } from "./plugins/eslint-plugin-unicorn.ts";
 import { fetchEslintPluginVitestRules } from "./plugins/eslint-plugin-vitest.ts";
+import { fetchEslintPluginAstroRules } from "./plugins/eslint-plugin-astro.ts";
 import { fetchEslintPluginVueRules } from "./plugins/eslint-plugin-vue.ts";
 import { fetchEslintPluginYmlRules } from "./plugins/eslint-plugin-yml.ts";
 import { fetchEslintTypeScriptRules } from "./plugins/eslint-typescript.ts";
@@ -172,6 +173,7 @@ const yoink = async () => {
 		await fetchEslintPluginReactXyzRules(createRule),
 		await fetchEslintPluginReactPerfRules(createRule),
 		await fetchEslintPluginSvelteRules(createRule),
+		await fetchEslintPluginAstroRules(createRule),
 	];
 
 	console.table(
