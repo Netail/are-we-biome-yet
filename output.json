@@ -941,7 +941,9 @@
 				{
 					"source_rule_name": "no-underscore-dangle",
 					"source_link": "https://eslint.org/docs/latest/rules/no-underscore-dangle",
-					"state": "missing"
+					"biome_rule_name": "noDanglingUnderscore",
+					"biome_link": "https://biomejs.dev/linter/rules/no-dangling-underscore/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-unexpected-multiline",
@@ -1314,7 +1316,9 @@
 				{
 					"source_rule_name": "unicode-bom",
 					"source_link": "https://eslint.org/docs/latest/rules/unicode-bom",
-					"state": "missing"
+					"biome_rule_name": "useConsistentUnicodeBom",
+					"biome_link": "https://biomejs.dev/linter/rules/use-consistent-unicode-bom/css",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "use-isnan",
@@ -1853,7 +1857,9 @@
 				{
 					"source_rule_name": "no-unsafe-return",
 					"source_link": "https://typescript-eslint.io/rules/no-unsafe-return",
-					"state": "missing"
+					"biome_rule_name": "noUnsafeReturn",
+					"biome_link": "https://biomejs.dev/linter/rules/no-unsafe-return/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unsafe-type-assertion",
@@ -2549,7 +2555,9 @@
 				{
 					"source_rule_name": "length-zero-no-unit",
 					"source_link": "https://stylelint.io/user-guide/rules/length-zero-no-unit",
-					"state": "missing"
+					"biome_rule_name": "noZeroLengthUnit",
+					"biome_link": "https://biomejs.dev/linter/rules/no-zero-length-unit/css",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "media-feature-name-allowed-list",
@@ -2801,7 +2809,9 @@
 				{
 					"source_rule_name": "time-min-milliseconds",
 					"source_link": "https://stylelint.io/user-guide/rules/time-min-milliseconds",
-					"state": "missing"
+					"biome_rule_name": "noShortTimeValues",
+					"biome_link": "https://biomejs.dev/linter/rules/no-short-time-values/css",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "alpha-value-notation",
@@ -2851,7 +2861,9 @@
 				{
 					"source_rule_name": "lightness-notation",
 					"source_link": "https://stylelint.io/user-guide/rules/lightness-notation",
-					"state": "missing"
+					"biome_rule_name": "useConsistentLightnessNotation",
+					"biome_link": "https://biomejs.dev/linter/rules/use-consistent-lightness-notation/css",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "media-feature-range-notation",
@@ -3369,7 +3381,9 @@
 				{
 					"source_rule_name": "no-render-return-value",
 					"source_link": "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-render-return-value.md",
-					"state": "missing"
+					"biome_rule_name": "noRenderReturnValue",
+					"biome_link": "https://biomejs.dev/linter/rules/no-render-return-value/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-set-state",
@@ -3483,7 +3497,9 @@
 				{
 					"source_rule_name": "self-closing-comp",
 					"source_link": "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md",
-					"state": "missing"
+					"biome_rule_name": "useSelfClosingElements",
+					"biome_link": "https://biomejs.dev/linter/rules/use-self-closing-elements/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "sort-comp",
@@ -4174,7 +4190,9 @@
 				{
 					"source_rule_name": "no-array-sort-for-min-max",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-sort-for-min-max.md",
-					"state": "missing"
+					"biome_rule_name": "noArraySortForMinMax",
+					"biome_link": "https://biomejs.dev/linter/rules/no-array-sort-for-min-max/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-array-splice",
@@ -4219,7 +4237,9 @@
 				{
 					"source_rule_name": "no-boolean-sort-comparator",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-boolean-sort-comparator.md",
-					"state": "missing"
+					"biome_rule_name": "noBooleanSortComparator",
+					"biome_link": "https://biomejs.dev/linter/rules/no-boolean-sort-comparator/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-break-in-nested-loop",
@@ -4303,7 +4323,9 @@
 				{
 					"source_rule_name": "no-duplicate-loops",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-loops.md",
-					"state": "missing"
+					"biome_rule_name": "noEagerArrayMethodsInLoops",
+					"biome_link": "https://biomejs.dev/linter/rules/no-eager-array-methods-in-loops/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-duplicate-set-values",
@@ -4775,7 +4797,9 @@
 				{
 					"source_rule_name": "no-unnecessary-splice",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-splice.md",
-					"state": "missing"
+					"biome_rule_name": "noUselessSplice",
+					"biome_link": "https://biomejs.dev/linter/rules/no-useless-splice/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unnecessary-string-trim",
@@ -4790,7 +4814,9 @@
 				{
 					"source_rule_name": "no-unreadable-for-of-expression",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-for-of-expression.md",
-					"state": "missing"
+					"biome_rule_name": "noUnreadableForOfExpression",
+					"biome_link": "https://biomejs.dev/linter/rules/no-unreadable-for-of-expression/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unreadable-iife",
@@ -5125,7 +5151,9 @@
 				{
 					"source_rule_name": "prefer-block-statement-over-iife",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-block-statement-over-iife.md",
-					"state": "missing"
+					"biome_rule_name": "useBlockStatementOverIife",
+					"biome_link": "https://biomejs.dev/linter/rules/use-block-statement-over-iife/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-boolean-return",
@@ -5332,7 +5360,9 @@
 				{
 					"source_rule_name": "prefer-iterator-zip",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-iterator-zip.md",
-					"state": "missing"
+					"biome_rule_name": "useIteratorZip",
+					"biome_link": "https://biomejs.dev/linter/rules/use-iterator-zip/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-json-import",
@@ -5367,12 +5397,16 @@
 				{
 					"source_rule_name": "prefer-math-abs",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-abs.md",
-					"state": "missing"
+					"biome_rule_name": "useMathAbs",
+					"biome_link": "https://biomejs.dev/linter/rules/use-math-abs/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-math-constants",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-constants.md",
-					"state": "missing"
+					"biome_rule_name": "noApproximativeNumericConstant",
+					"biome_link": "https://biomejs.dev/linter/rules/no-approximative-numeric-constant/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-math-min-max",
@@ -5384,7 +5418,9 @@
 				{
 					"source_rule_name": "prefer-math-trunc",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-trunc.md",
-					"state": "missing"
+					"biome_rule_name": "useMathTrunc",
+					"biome_link": "https://biomejs.dev/linter/rules/use-math-trunc/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-minimal-ternary",
@@ -6686,7 +6722,9 @@
 				{
 					"source_rule_name": "prefer-to-contain",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-contain.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToContain",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-contain/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-to-have-been-called",
@@ -7117,7 +7155,9 @@
 				{
 					"source_rule_name": "prefer-to-contain",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-contain.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToContain",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-contain/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-to-have-been-called-times",
@@ -7387,7 +7427,9 @@
 				{
 					"source_rule_name": "extensions",
 					"source_link": "https://github.com/import-js/eslint-plugin-import/tree/main/docs/rules/extensions.md",
-					"state": "missing"
+					"biome_rule_name": "useImportExtensions",
+					"biome_link": "https://biomejs.dev/linter/rules/use-import-extensions/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "first",
@@ -7766,12 +7808,16 @@
 				{
 					"source_rule_name": "no-v-text-v-html-on-component",
 					"source_link": "https://eslint.vuejs.org/rules/no-v-text-v-html-on-component",
-					"state": "missing"
+					"biome_rule_name": "noVueVTextVHtmlOnComponent",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-v-text-v-html-on-component/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-watch-after-await",
 					"source_link": "https://eslint.vuejs.org/rules/no-watch-after-await",
-					"state": "missing"
+					"biome_rule_name": "noVueWatchAfterAwait",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-watch-after-await/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-import-from-vue",
@@ -7783,7 +7829,9 @@
 				{
 					"source_rule_name": "require-component-is",
 					"source_link": "https://eslint.vuejs.org/rules/require-component-is",
-					"state": "missing"
+					"biome_rule_name": "useVueComponentIs",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-component-is/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "require-prop-type-constructor",
@@ -7803,7 +7851,9 @@
 				{
 					"source_rule_name": "require-toggle-inside-transition",
 					"source_link": "https://eslint.vuejs.org/rules/require-toggle-inside-transition",
-					"state": "missing"
+					"biome_rule_name": "useVueToggleInsideTransition",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-toggle-inside-transition/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "require-v-for-key",
@@ -7830,7 +7880,9 @@
 				{
 					"source_rule_name": "use-v-on-exact",
 					"source_link": "https://eslint.vuejs.org/rules/use-v-on-exact",
-					"state": "missing"
+					"biome_rule_name": "useVueVOnExact",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-v-on-exact/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "valid-attribute-name",
@@ -8458,7 +8510,9 @@
 				{
 					"source_rule_name": "no-undef-directives",
 					"source_link": "https://eslint.vuejs.org/rules/no-undef-directives",
-					"state": "missing"
+					"biome_rule_name": "noVueUndeclaredDirectives",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-undeclared-directives/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-undef-properties",
@@ -8473,7 +8527,9 @@
 				{
 					"source_rule_name": "no-unused-emit-declarations",
 					"source_link": "https://eslint.vuejs.org/rules/no-unused-emit-declarations",
-					"state": "missing"
+					"biome_rule_name": "noVueUnusedEmitDeclarations",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-unused-emit-declarations/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unused-properties",
@@ -8605,7 +8661,9 @@
 				{
 					"source_rule_name": "require-typed-ref",
 					"source_link": "https://eslint.vuejs.org/rules/require-typed-ref",
-					"state": "missing"
+					"biome_rule_name": "useVueTypedRef",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-typed-ref/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "restricted-component-names",
@@ -10044,7 +10102,9 @@
 				{
 					"source_rule_name": "no-nth-methods",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-nth-methods.md",
-					"state": "missing"
+					"biome_rule_name": "noPlaywrightNthMethods",
+					"biome_link": "https://biomejs.dev/linter/rules/no-playwright-nth-methods/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-page-pause",
@@ -10207,7 +10267,9 @@
 				{
 					"source_rule_name": "prefer-to-contain",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/prefer-to-contain.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToContain",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-contain/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-to-have-count",
@@ -10747,7 +10809,9 @@
 				{
 					"source_rule_name": "no-obsolete-attrs",
 					"source_link": "https://html-eslint.org/docs/rulesrules/no-obsolete-attrs",
-					"state": "missing"
+					"biome_rule_name": "noObsoleteAttributes",
+					"biome_link": "https://biomejs.dev/linter/rules/no-obsolete-attributes/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-obsolete-tags",
@@ -11464,6 +11528,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "unstable-exhaustive-deps",
+					"source_link": "https://www.eslint-react.xyz//docs/rules/unstable-exhaustive-deps",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "unsupported-syntax",
 					"source_link": "https://www.eslint-react.xyz//docs/rules/unsupported-syntax",
 					"state": "missing"
@@ -11584,7 +11653,9 @@
 				{
 					"source_rule_name": "dom-no-render-return-value",
 					"source_link": "https://www.eslint-react.xyz//docs/rules/dom-no-render-return-value",
-					"state": "missing"
+					"biome_rule_name": "noRenderReturnValue",
+					"biome_link": "https://biomejs.dev/linter/rules/no-render-return-value/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "dom-no-script-url",
@@ -11911,7 +11982,9 @@
 				{
 					"source_rule_name": "no-svelte-internal",
 					"source_link": "https://sveltejs.github.io/eslint-plugin-svelte/rules/no-svelte-internal/",
-					"state": "missing"
+					"biome_rule_name": "noSvelteInternal",
+					"biome_link": "https://biomejs.dev/linter/rules/no-svelte-internal/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unnecessary-state-wrap",
