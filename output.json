@@ -4284,7 +4284,9 @@
 				{
 					"source_rule_name": "no-console-spaces",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-console-spaces.md",
-					"state": "missing"
+					"biome_rule_name": "noConsoleSpaces",
+					"biome_link": "https://biomejs.dev/linter/rules/no-console-spaces/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-constant-zero-expression",
@@ -4528,7 +4530,9 @@
 				{
 					"source_rule_name": "no-magic-array-flat-depth",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-magic-array-flat-depth.md",
-					"state": "missing"
+					"biome_rule_name": "noMagicArrayFlatDepth",
+					"biome_link": "https://biomejs.dev/linter/rules/no-magic-array-flat-depth/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-manually-wrapped-comments",
@@ -4614,7 +4618,9 @@
 				{
 					"source_rule_name": "no-null",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-null.md",
-					"state": "missing"
+					"biome_rule_name": "noNull",
+					"biome_link": "https://biomejs.dev/linter/rules/no-null/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-object-as-default-parameter",
@@ -4656,7 +4662,9 @@
 				{
 					"source_rule_name": "no-return-array-push",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-return-array-push.md",
-					"state": "missing"
+					"biome_rule_name": "noReturnArrayPush",
+					"biome_link": "https://biomejs.dev/linter/rules/no-return-array-push/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-selector-as-dom-name",
@@ -4821,7 +4829,9 @@
 				{
 					"source_rule_name": "no-unreadable-iife",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md",
-					"state": "missing"
+					"biome_rule_name": "noUnreadableIife",
+					"biome_link": "https://biomejs.dev/linter/rules/no-unreadable-iife/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unreadable-new-expression",
@@ -4971,7 +4981,9 @@
 				{
 					"source_rule_name": "no-useless-recursion",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-recursion.md",
-					"state": "missing"
+					"biome_rule_name": "noUselessRecursion",
+					"biome_link": "https://biomejs.dev/linter/rules/no-useless-recursion/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-useless-set-construction",
@@ -5788,7 +5800,9 @@
 				{
 					"source_rule_name": "prefer-while-loop-condition",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-while-loop-condition.md",
-					"state": "missing"
+					"biome_rule_name": "useWhileLoopCondition",
+					"biome_link": "https://biomejs.dev/linter/rules/use-while-loop-condition/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "relative-url-style",
@@ -7544,7 +7558,9 @@
 				{
 					"source_rule_name": "no-computed-properties-in-data",
 					"source_link": "https://eslint.vuejs.org/rules/no-computed-properties-in-data",
-					"state": "missing"
+					"biome_rule_name": "noVueComputedPropertiesInData",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-computed-properties-in-data/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-custom-modifiers-on-v-model",
@@ -7561,7 +7577,9 @@
 				{
 					"source_rule_name": "no-deprecated-delete-set",
 					"source_link": "https://eslint.vuejs.org/rules/no-deprecated-delete-set",
-					"state": "missing"
+					"biome_rule_name": "noVueDeprecatedDeleteSet",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-deprecated-delete-set/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-deprecated-destroyed-lifecycle",
@@ -7571,7 +7589,9 @@
 				{
 					"source_rule_name": "no-deprecated-dollar-listeners-api",
 					"source_link": "https://eslint.vuejs.org/rules/no-deprecated-dollar-listeners-api",
-					"state": "missing"
+					"biome_rule_name": "noVueDeprecatedListeners",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-deprecated-listeners/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-deprecated-dollar-scopedslots-api",
@@ -7618,12 +7638,16 @@
 				{
 					"source_rule_name": "no-deprecated-router-link-tag-prop",
 					"source_link": "https://eslint.vuejs.org/rules/no-deprecated-router-link-tag-prop",
-					"state": "missing"
+					"biome_rule_name": "noVueDeprecatedRouterLinkTagProp",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-deprecated-router-link-tag-prop/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-deprecated-scope-attribute",
 					"source_link": "https://eslint.vuejs.org/rules/no-deprecated-scope-attribute",
-					"state": "missing"
+					"biome_rule_name": "noVueDeprecatedScopeAttribute",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-deprecated-scope-attribute/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-deprecated-slot-attribute",
@@ -7706,7 +7730,9 @@
 				{
 					"source_rule_name": "no-mutating-props",
 					"source_link": "https://eslint.vuejs.org/rules/no-mutating-props",
-					"state": "missing"
+					"biome_rule_name": "noVueMutatingProps",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-mutating-props/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-parsing-error",
@@ -7749,7 +7775,9 @@
 				{
 					"source_rule_name": "no-side-effects-in-computed-properties",
 					"source_link": "https://eslint.vuejs.org/rules/no-side-effects-in-computed-properties",
-					"state": "missing"
+					"biome_rule_name": "noVueSideEffectsInComputed",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-side-effects-in-computed/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-template-key",
@@ -7892,7 +7920,9 @@
 				{
 					"source_rule_name": "valid-define-emits",
 					"source_link": "https://eslint.vuejs.org/rules/valid-define-emits",
-					"state": "missing"
+					"biome_rule_name": "useVueValidDefineEmits",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-valid-define-emits/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "valid-define-options",
@@ -7902,7 +7932,9 @@
 				{
 					"source_rule_name": "valid-define-props",
 					"source_link": "https://eslint.vuejs.org/rules/valid-define-props",
-					"state": "missing"
+					"biome_rule_name": "useVueValidDefineProps",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-valid-define-props/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "valid-model-definition",
@@ -7978,17 +8010,23 @@
 				{
 					"source_rule_name": "valid-v-is",
 					"source_link": "https://eslint.vuejs.org/rules/valid-v-is",
-					"state": "missing"
+					"biome_rule_name": "useVueValidVIs",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-valid-v-is/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "valid-v-memo",
 					"source_link": "https://eslint.vuejs.org/rules/valid-v-memo",
-					"state": "missing"
+					"biome_rule_name": "useVueValidVMemo",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-valid-v-memo/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "valid-v-model",
 					"source_link": "https://eslint.vuejs.org/rules/valid-v-model",
-					"state": "missing"
+					"biome_rule_name": "useVueValidVModel",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-valid-v-model/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "valid-v-on",
@@ -8014,12 +8052,16 @@
 				{
 					"source_rule_name": "valid-v-show",
 					"source_link": "https://eslint.vuejs.org/rules/valid-v-show",
-					"state": "missing"
+					"biome_rule_name": "useVueValidVShow",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-valid-v-show/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "valid-v-slot",
 					"source_link": "https://eslint.vuejs.org/rules/valid-v-slot",
-					"state": "missing"
+					"biome_rule_name": "useVueValidVSlot",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-valid-v-slot/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "valid-v-text",
@@ -8128,7 +8170,9 @@
 				{
 					"source_rule_name": "require-prop-types",
 					"source_link": "https://eslint.vuejs.org/rules/require-prop-types",
-					"state": "missing"
+					"biome_rule_name": "useVueTypedProps",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-typed-props/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "singleline-html-element-content-newline",
@@ -8181,7 +8225,9 @@
 				{
 					"source_rule_name": "no-multiple-slot-args",
 					"source_link": "https://eslint.vuejs.org/rules/no-multiple-slot-args",
-					"state": "missing"
+					"biome_rule_name": "noVueMultipleSlotArgs",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-multiple-slot-args/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-required-prop-with-default",
@@ -8263,7 +8309,9 @@
 				{
 					"source_rule_name": "define-props-destructuring",
 					"source_link": "https://eslint.vuejs.org/rules/define-props-destructuring",
-					"state": "missing"
+					"biome_rule_name": "useVueDefinePropsDestructuring",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-define-props-destructuring/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "enforce-style-attribute",
@@ -8539,12 +8587,16 @@
 				{
 					"source_rule_name": "no-unused-refs",
 					"source_link": "https://eslint.vuejs.org/rules/no-unused-refs",
-					"state": "missing"
+					"biome_rule_name": "noVueUnusedRefs",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-unused-refs/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-use-v-else-with-v-for",
 					"source_link": "https://eslint.vuejs.org/rules/no-use-v-else-with-v-for",
-					"state": "missing"
+					"biome_rule_name": "noVueVIfWithVFor",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-v-if-with-v-for/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-useless-mustaches",
@@ -8581,7 +8633,9 @@
 				{
 					"source_rule_name": "prefer-define-options",
 					"source_link": "https://eslint.vuejs.org/rules/prefer-define-options",
-					"state": "missing"
+					"biome_rule_name": "useVueDefineOptions",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-define-options/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-prop-type-boolean-first",
@@ -8606,12 +8660,16 @@
 				{
 					"source_rule_name": "prefer-use-template-ref",
 					"source_link": "https://eslint.vuejs.org/rules/prefer-use-template-ref",
-					"state": "missing"
+					"biome_rule_name": "useVueTemplateRef",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-template-ref/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "prefer-v-model",
 					"source_link": "https://eslint.vuejs.org/rules/prefer-v-model",
-					"state": "missing"
+					"biome_rule_name": "useVueVModel",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-v-model/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "require-default-export",
@@ -8765,7 +8823,9 @@
 				{
 					"source_rule_name": "dot-notation",
 					"source_link": "https://eslint.vuejs.org/rules/dot-notation",
-					"state": "missing"
+					"biome_rule_name": "useLiteralKeys",
+					"biome_link": "https://biomejs.dev/linter/rules/use-literal-keys/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "eqeqeq",
@@ -11528,11 +11588,6 @@
 					"state": "missing"
 				},
 				{
-					"source_rule_name": "unstable-exhaustive-deps",
-					"source_link": "https://www.eslint-react.xyz//docs/rules/unstable-exhaustive-deps",
-					"state": "missing"
-				},
-				{
 					"source_rule_name": "unsupported-syntax",
 					"source_link": "https://www.eslint-react.xyz//docs/rules/unsupported-syntax",
 					"state": "missing"
@@ -12052,7 +12107,9 @@
 				{
 					"source_rule_name": "require-event-dispatcher-types",
 					"source_link": "https://sveltejs.github.io/eslint-plugin-svelte/rules/require-event-dispatcher-types/",
-					"state": "missing"
+					"biome_rule_name": "useSvelteEventDispatcherTypes",
+					"biome_link": "https://biomejs.dev/linter/rules/use-svelte-event-dispatcher-types/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "require-optimized-style-attribute",
