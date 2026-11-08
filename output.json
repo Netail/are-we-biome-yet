@@ -4602,7 +4602,9 @@
 				{
 					"source_rule_name": "no-negated-array-predicate",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-negated-array-predicate.md",
-					"state": "missing"
+					"biome_rule_name": "noNegatedArrayPredicate",
+					"biome_link": "https://biomejs.dev/linter/rules/no-negated-array-predicate/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-negated-comparison",
@@ -4728,7 +4730,9 @@
 				{
 					"source_rule_name": "no-subtraction-comparison",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-subtraction-comparison.md",
-					"state": "missing"
+					"biome_rule_name": "noSubtractionComparison",
+					"biome_link": "https://biomejs.dev/linter/rules/no-subtraction-comparison/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-thenable",
@@ -5565,6 +5569,11 @@
 				{
 					"source_rule_name": "prefer-optional-catch-binding",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-optional-catch-binding.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "prefer-options-parameter",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-options-parameter.md",
 					"state": "missing"
 				},
 				{
@@ -9240,6 +9249,11 @@
 			"name": "eslint-plugin-solid",
 			"rules": [
 				{
+					"source_rule_name": "action-yield-after-await",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/action-yield-after-await.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "components-return-once",
 					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/components-return-once.md",
 					"state": "missing"
@@ -9351,6 +9365,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-unassigned-vars",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-unassigned-vars.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-unknown-namespaces",
 					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/no-unknown-namespaces.md",
 					"state": "missing"
@@ -9416,6 +9435,11 @@
 					"source_rule_name": "valid-use-server",
 					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/valid-use-server.md",
 					"state": "missing"
+				},
+				{
+					"source_rule_name": "validate-jsx-nesting",
+					"source_link": "https://github.com/solidjs-community/eslint-plugin-solid/tree/main/packages/eslint-plugin-solid/docs/validate-jsx-nesting.md",
+					"state": "missing"
 				}
 			]
 		},
@@ -9446,7 +9470,9 @@
 				{
 					"source_rule_name": "next-script-for-ga",
 					"source_link": "https://nextjs.org/docs/messages/next-script-for-ga",
-					"state": "missing"
+					"biome_rule_name": "useNextScriptForGoogleAnalytics",
+					"biome_link": "https://biomejs.dev/linter/rules/use-next-script-for-google-analytics/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-assign-module-variable",
@@ -11668,7 +11694,9 @@
 				{
 					"source_rule_name": "no-ignored-unsubscribe",
 					"source_link": "https://sveltejs.github.io/eslint-plugin-svelte/rules/no-ignored-unsubscribe/",
-					"state": "missing"
+					"biome_rule_name": "noSvelteIgnoredUnsubscribe",
+					"biome_link": "https://biomejs.dev/linter/rules/no-svelte-ignored-unsubscribe/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-immutable-reactive-statements",
