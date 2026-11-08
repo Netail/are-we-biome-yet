@@ -7,7 +7,7 @@ export const fetchEslintPluginReactPerfRules = async (
 	const rules: Rule[] = [];
 
 	const response = await fetch(
-		"https://raw.githubusercontent.com/cvazac/eslint-plugin-react-perf/refs/heads/master/README.md",
+		"https://raw.githubusercontent.com/cvazac/eslint-plugin-react-perf/refs/heads/main/README.md",
 	);
 	const markdown = await response.text();
 
@@ -27,7 +27,7 @@ export const fetchEslintPluginReactPerfRules = async (
 					createRule(
 						"eslintReactPerf",
 						name,
-						`https://github.com/cvazac/eslint-plugin-react-perf/blob/master/${path}`,
+						`https://github.com/cvazac/eslint-plugin-react-perf/blob/main/${path}`,
 					),
 				);
 				found.add(name);
