@@ -2,6 +2,7 @@ import { writeFileSync } from "node:fs";
 import type { Rule } from "../src/interfaces/rule.ts";
 import { calculate } from "../src/utils/calculate.ts";
 import { fetchEslintRules } from "./plugins/eslint.ts";
+import { fetchEslintPluginAstroRules } from "./plugins/eslint-plugin-astro.ts";
 import { fetchEslintPluginCssRules } from "./plugins/eslint-plugin-css.ts";
 import { fetchEslintPluginCypressRules } from "./plugins/eslint-plugin-cypress.ts";
 import { fetchEslintPluginE18eRules } from "./plugins/eslint-plugin-e18e.ts";
@@ -25,7 +26,6 @@ import { fetchEslintPluginStylisticRules } from "./plugins/eslint-plugin-stylist
 import { fetchEslintPluginSvelteRules } from "./plugins/eslint-plugin-svelte.ts";
 import { fetchEslintPluginUnicornRules } from "./plugins/eslint-plugin-unicorn.ts";
 import { fetchEslintPluginVitestRules } from "./plugins/eslint-plugin-vitest.ts";
-import { fetchEslintPluginAstroRules } from "./plugins/eslint-plugin-astro.ts";
 import { fetchEslintPluginVueRules } from "./plugins/eslint-plugin-vue.ts";
 import { fetchEslintPluginYmlRules } from "./plugins/eslint-plugin-yml.ts";
 import { fetchEslintTypeScriptRules } from "./plugins/eslint-typescript.ts";

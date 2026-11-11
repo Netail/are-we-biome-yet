@@ -15,7 +15,7 @@ export const fetchEslintPluginAstroRules = async (
 	const lines = preDeprecated.split("\n");
 	lines
 		.filter((e) => /^\| \[astro\/(.*)\]\((.*)\).*/.test(e))
-		.filter((e) => !e.includes('jsx-a11y'))
+		.filter((e) => !e.includes("jsx-a11y"))
 		.forEach((e) => {
 			const parts = /^\| \[astro\/(.*)\]\((.*)\)/.exec(e);
 
