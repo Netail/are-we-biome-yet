@@ -12,6 +12,12 @@ export const fetchEslintPluginReactXyzRules = async (
 	const response = await fetch(`${BASE_URL}/docs/rules`);
 	const htmlPage = await response.text();
 
+	if (!response.ok) {
+		console.log(response.status);
+		console.log(response.statusText);
+		console.log(htmlPage);
+	}
+
 	const html = parse(htmlPage);
 	const tables = html.querySelectorAll("table") || [];
 

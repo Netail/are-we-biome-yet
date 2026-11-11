@@ -14,8 +14,6 @@ export const fetchEslintPluginReactHooksRules = async (
 	);
 	const htmlPage = await response.text();
 
-	console.log(htmlPage);
-
 	const html = parse(htmlPage);
 	const lists = html.querySelectorAll("main ul");
 
