@@ -500,7 +500,9 @@
 				{
 					"source_rule_name": "no-extra-bind",
 					"source_link": "https://eslint.org/docs/latest/rules/no-extra-bind",
-					"state": "missing"
+					"biome_rule_name": "noUselessBind",
+					"biome_link": "https://biomejs.dev/linter/rules/no-useless-bind/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-extra-boolean-cast",
@@ -1408,7 +1410,9 @@
 				{
 					"source_rule_name": "consistent-indexed-object-style",
 					"source_link": "https://typescript-eslint.io/rules/consistent-indexed-object-style",
-					"state": "missing"
+					"biome_rule_name": "useConsistentIndexedObjectStyle",
+					"biome_link": "https://biomejs.dev/linter/rules/use-consistent-indexed-object-style/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "consistent-return",
@@ -1517,7 +1521,9 @@
 				{
 					"source_rule_name": "no-array-delete",
 					"source_link": "https://typescript-eslint.io/rules/no-array-delete",
-					"state": "missing"
+					"biome_rule_name": "noArrayDelete",
+					"biome_link": "https://biomejs.dev/linter/rules/no-array-delete/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-base-to-string",
@@ -1687,7 +1693,9 @@
 				{
 					"source_rule_name": "no-misused-spread",
 					"source_link": "https://typescript-eslint.io/rules/no-misused-spread",
-					"state": "missing"
+					"biome_rule_name": "noMisusedSpread",
+					"biome_link": "https://biomejs.dev/linter/rules/no-misused-spread/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-mixed-enums",
@@ -1844,6 +1852,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "no-unsafe-class-instance-assignment",
+					"source_link": "https://typescript-eslint.io/rules/no-unsafe-class-instance-assignment",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-unsafe-declaration-merging",
 					"source_link": "https://typescript-eslint.io/rules/no-unsafe-declaration-merging",
 					"biome_rule_name": "noUnsafeDeclarationMerging",
@@ -1925,7 +1938,9 @@
 				{
 					"source_rule_name": "no-useless-default-assignment",
 					"source_link": "https://typescript-eslint.io/rules/no-useless-default-assignment",
-					"state": "missing"
+					"biome_rule_name": "noUselessDefaultAssignment",
+					"biome_link": "https://biomejs.dev/linter/rules/no-useless-default-assignment/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-useless-empty-export",
@@ -2143,7 +2158,9 @@
 				{
 					"source_rule_name": "triple-slash-reference",
 					"source_link": "https://typescript-eslint.io/rules/triple-slash-reference",
-					"state": "missing"
+					"biome_rule_name": "noTripleSlashReference",
+					"biome_link": "https://biomejs.dev/linter/rules/no-triple-slash-reference/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "unbound-method",
@@ -4183,6 +4200,11 @@
 					"state": "same"
 				},
 				{
+					"source_rule_name": "no-adjacent-block-comments",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-adjacent-block-comments.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-anonymous-default-export",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-anonymous-default-export.md",
 					"state": "missing"
@@ -4298,7 +4320,9 @@
 				{
 					"source_rule_name": "no-canvas-to-image",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-canvas-to-image.md",
-					"state": "missing"
+					"biome_rule_name": "noCanvasToImage",
+					"biome_link": "https://biomejs.dev/linter/rules/no-canvas-to-image/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-chained-comparison",
@@ -4323,7 +4347,9 @@
 				{
 					"source_rule_name": "no-confusing-array-splice",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-confusing-array-splice.md",
-					"state": "missing"
+					"biome_rule_name": "noConfusingArraySplice",
+					"biome_link": "https://biomejs.dev/linter/rules/no-confusing-array-splice/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-confusing-array-with",
@@ -4340,7 +4366,9 @@
 				{
 					"source_rule_name": "no-constant-zero-expression",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-constant-zero-expression.md",
-					"state": "missing"
+					"biome_rule_name": "noErasingOperation",
+					"biome_link": "https://biomejs.dev/linter/rules/no-erasing-operation/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-declarations-before-early-exit",
@@ -4427,7 +4455,9 @@
 				{
 					"source_rule_name": "no-immediate-mutation",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-immediate-mutation.md",
-					"state": "missing"
+					"biome_rule_name": "noImmediateMutation",
+					"biome_link": "https://biomejs.dev/linter/rules/no-immediate-mutation/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-impossible-length-comparison",
@@ -4553,7 +4583,9 @@
 				{
 					"source_rule_name": "no-late-current-target-access",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-late-current-target-access.md",
-					"state": "missing"
+					"biome_rule_name": "noLateCurrentTargetAccess",
+					"biome_link": "https://biomejs.dev/linter/rules/no-late-current-target-access/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-late-event-control",
@@ -4590,6 +4622,11 @@
 					"biome_rule_name": "noMagicArrayFlatDepth",
 					"biome_link": "https://biomejs.dev/linter/rules/no-magic-array-flat-depth/javascript",
 					"state": "same"
+				},
+				{
+					"source_rule_name": "no-magic-escape-sequences",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-magic-escape-sequences.md",
+					"state": "missing"
 				},
 				{
 					"source_rule_name": "no-manually-wrapped-comments",
@@ -4854,7 +4891,9 @@
 				{
 					"source_rule_name": "no-unnecessary-nested-ternary",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-nested-ternary.md",
-					"state": "missing"
+					"biome_rule_name": "noUselessNestedTernary",
+					"biome_link": "https://biomejs.dev/linter/rules/no-useless-nested-ternary/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-unnecessary-parameters",
@@ -4942,7 +4981,9 @@
 				{
 					"source_rule_name": "no-unsafe-sqlite-interpolation",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unsafe-sqlite-interpolation.md",
-					"state": "missing"
+					"biome_rule_name": "noUnsafeSqliteInterpolation",
+					"biome_link": "https://biomejs.dev/linter/rules/no-unsafe-sqlite-interpolation/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unsafe-string-replacement",
@@ -5065,7 +5106,9 @@
 				{
 					"source_rule_name": "no-useless-set-construction",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-set-construction.md",
-					"state": "missing"
+					"biome_rule_name": "noUselessSetConstruction",
+					"biome_link": "https://biomejs.dev/linter/rules/no-useless-set-construction/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-useless-spread",
@@ -5276,7 +5319,9 @@
 				{
 					"source_rule_name": "prefer-continue",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-continue.md",
-					"state": "missing"
+					"biome_rule_name": "useEarlyContinue",
+					"biome_link": "https://biomejs.dev/linter/rules/use-early-continue/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-date-now",
@@ -5538,6 +5583,11 @@
 					"state": "inspired"
 				},
 				{
+					"source_rule_name": "prefer-named-character-references",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-named-character-references.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "prefer-native-coercion-functions",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-native-coercion-functions.md",
 					"state": "missing"
@@ -5760,6 +5810,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "prefer-string-coercion",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-coercion.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "prefer-string-match-all",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-match-all.md",
 					"state": "missing"
@@ -5955,6 +6010,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "require-spread-parentheses",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-spread-parentheses.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "require-text-decoder-streaming",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-text-decoder-streaming.md",
 					"state": "missing"
@@ -6047,6 +6107,11 @@
 					"state": "missing"
 				},
 				{
+					"source_rule_name": "`no-adjacent-block-comments`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-adjacent-block-comments.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "`no-asterisk-prefix-in-documentation-comments`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-asterisk-prefix-in-documentation-comments.md",
 					"state": "missing"
@@ -6134,6 +6199,11 @@
 				{
 					"source_rule_name": "`prefer-literal-ascii`",
 					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-literal-ascii.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "`prefer-named-character-references`",
+					"source_link": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-named-character-references.md",
 					"state": "missing"
 				},
 				{
@@ -6624,7 +6694,9 @@
 				{
 					"source_rule_name": "no-hooks",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-hooks.md",
-					"state": "missing"
+					"biome_rule_name": "noTestHooks",
+					"biome_link": "https://biomejs.dev/linter/rules/no-test-hooks/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-identical-title",
@@ -6641,7 +6713,9 @@
 				{
 					"source_rule_name": "no-jasmine-globals",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-jasmine-globals.md",
-					"state": "missing"
+					"biome_rule_name": "noJasmineGlobals",
+					"biome_link": "https://biomejs.dev/linter/rules/no-jasmine-globals/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-large-snapshots",
@@ -6678,7 +6752,9 @@
 				{
 					"source_rule_name": "no-test-return-statement",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-test-return-statement.md",
-					"state": "missing"
+					"biome_rule_name": "noReturnInTest",
+					"biome_link": "https://biomejs.dev/linter/rules/no-return-in-test/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unneeded-async-expect-function",
@@ -6733,7 +6809,9 @@
 				{
 					"source_rule_name": "prefer-called-with",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-called-with.md",
-					"state": "missing"
+					"biome_rule_name": "useCalledWith",
+					"biome_link": "https://biomejs.dev/linter/rules/use-called-with/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-comparison-matcher",
@@ -6753,7 +6831,9 @@
 				{
 					"source_rule_name": "prefer-equality-matcher",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-equality-matcher.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectEqualityMatcher",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-equality-matcher/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-expect-assertions",
@@ -6782,7 +6862,9 @@
 				{
 					"source_rule_name": "prefer-importing-jest-globals",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-importing-jest-globals.md",
-					"state": "missing"
+					"biome_rule_name": "noTestGlobals",
+					"biome_link": "https://biomejs.dev/linter/rules/no-test-globals/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "prefer-jest-mocked",
@@ -6814,12 +6896,16 @@
 				{
 					"source_rule_name": "prefer-spy-on",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-spy-on.md",
-					"state": "missing"
+					"biome_rule_name": "useSpyOn",
+					"biome_link": "https://biomejs.dev/linter/rules/use-spy-on/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-strict-equal",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-strict-equal.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToStrictEqual",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-strict-equal/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-to-be",
@@ -6836,17 +6922,23 @@
 				{
 					"source_rule_name": "prefer-to-have-been-called",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-have-been-called.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToHaveBeenCalled",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-have-been-called/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-to-have-been-called-times",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-have-been-called-times.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToHaveBeenCalledTimes",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-have-been-called-times/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-to-have-length",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-have-length.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToHaveLength",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-have-length/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-todo",
@@ -6866,7 +6958,9 @@
 				{
 					"source_rule_name": "require-top-level-describe",
 					"source_link": "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/require-top-level-describe.md",
-					"state": "missing"
+					"biome_rule_name": "useTopLevelDescribe",
+					"biome_link": "https://biomejs.dev/linter/rules/use-top-level-describe/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "valid-describe-callback",
@@ -7017,7 +7111,9 @@
 				{
 					"source_rule_name": "no-hooks",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-hooks.md",
-					"state": "missing"
+					"biome_rule_name": "noTestHooks",
+					"biome_link": "https://biomejs.dev/linter/rules/no-test-hooks/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-identical-title",
@@ -7076,7 +7172,9 @@
 				{
 					"source_rule_name": "no-test-return-statement",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-test-return-statement.md",
-					"state": "missing"
+					"biome_rule_name": "noReturnInTest",
+					"biome_link": "https://biomejs.dev/linter/rules/no-return-in-test/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unneeded-async-expect-function",
@@ -7136,12 +7234,16 @@
 				{
 					"source_rule_name": "prefer-called-times",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-called-times.md",
-					"state": "missing"
+					"biome_rule_name": "noExpectToHaveBeenCalledOnce",
+					"biome_link": "https://biomejs.dev/linter/rules/no-expect-to-have-been-called-once/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-called-with",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-called-with.md",
-					"state": "missing"
+					"biome_rule_name": "useCalledWith",
+					"biome_link": "https://biomejs.dev/linter/rules/use-called-with/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-comparison-matcher",
@@ -7151,7 +7253,9 @@
 				{
 					"source_rule_name": "prefer-describe-function-title",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-describe-function-title.md",
-					"state": "missing"
+					"biome_rule_name": "useDescribeFunctionTitle",
+					"biome_link": "https://biomejs.dev/linter/rules/use-describe-function-title/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "prefer-each",
@@ -7161,7 +7265,9 @@
 				{
 					"source_rule_name": "prefer-equality-matcher",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-equality-matcher.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectEqualityMatcher",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-equality-matcher/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-expect-assertions",
@@ -7200,7 +7306,9 @@
 				{
 					"source_rule_name": "prefer-importing-vitest-globals",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-importing-vitest-globals.md",
-					"state": "missing"
+					"biome_rule_name": "noTestGlobals",
+					"biome_link": "https://biomejs.dev/linter/rules/no-test-globals/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "prefer-lowercase-title",
@@ -7227,7 +7335,9 @@
 				{
 					"source_rule_name": "prefer-spy-on",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-spy-on.md",
-					"state": "missing"
+					"biome_rule_name": "useSpyOn",
+					"biome_link": "https://biomejs.dev/linter/rules/use-spy-on/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-strict-boolean-matchers",
@@ -7237,7 +7347,9 @@
 				{
 					"source_rule_name": "prefer-strict-equal",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-strict-equal.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToStrictEqual",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-strict-equal/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-to-be",
@@ -7269,12 +7381,16 @@
 				{
 					"source_rule_name": "prefer-to-have-been-called-times",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-have-been-called-times.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToHaveBeenCalledTimes",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-have-been-called-times/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-to-have-length",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-have-length.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToHaveLength",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-have-length/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-todo",
@@ -7319,7 +7435,9 @@
 				{
 					"source_rule_name": "require-top-level-describe",
 					"source_link": "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-top-level-describe.md",
-					"state": "missing"
+					"biome_rule_name": "useTopLevelDescribe",
+					"biome_link": "https://biomejs.dev/linter/rules/use-top-level-describe/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "unbound-method",
@@ -7455,7 +7573,9 @@
 				{
 					"source_rule_name": "namespace",
 					"source_link": "https://github.com/import-js/eslint-plugin-import/tree/main/docs/rules/namespace.md",
-					"state": "missing"
+					"biome_rule_name": "useValidNamespaceImports",
+					"biome_link": "https://biomejs.dev/linter/rules/use-valid-namespace-imports/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-absolute-path",
@@ -7472,7 +7592,9 @@
 				{
 					"source_rule_name": "no-dynamic-require",
 					"source_link": "https://github.com/import-js/eslint-plugin-import/tree/main/docs/rules/no-dynamic-require.md",
-					"state": "missing"
+					"biome_rule_name": "noDynamicRequire",
+					"biome_link": "https://biomejs.dev/linter/rules/no-dynamic-require/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-internal-modules",
@@ -7519,7 +7641,9 @@
 				{
 					"source_rule_name": "consistent-type-specifier-style",
 					"source_link": "https://github.com/import-js/eslint-plugin-import/tree/main/docs/rules/consistent-type-specifier-style.md",
-					"state": "missing"
+					"biome_rule_name": "useImportType",
+					"biome_link": "https://biomejs.dev/linter/rules/use-import-type/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "dynamic-import-chunkname",
@@ -7643,7 +7767,9 @@
 				{
 					"source_rule_name": "no-async-in-computed-properties",
 					"source_link": "https://eslint.vuejs.org/rules/no-async-in-computed-properties",
-					"state": "missing"
+					"biome_rule_name": "noVueAsyncComputed",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-async-computed/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-child-content",
@@ -7709,7 +7835,9 @@
 				{
 					"source_rule_name": "no-deprecated-filter",
 					"source_link": "https://eslint.vuejs.org/rules/no-deprecated-filter",
-					"state": "missing"
+					"biome_rule_name": "noVueDeprecatedFilter",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-deprecated-filter/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-deprecated-functional-template",
@@ -7784,7 +7912,9 @@
 				{
 					"source_rule_name": "no-deprecated-v-is",
 					"source_link": "https://eslint.vuejs.org/rules/no-deprecated-v-is",
-					"state": "missing"
+					"biome_rule_name": "noVueDeprecatedVIs",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-deprecated-v-is/html",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-deprecated-v-on-native-modifier",
@@ -7817,7 +7947,9 @@
 				{
 					"source_rule_name": "no-dupe-v-else-if",
 					"source_link": "https://eslint.vuejs.org/rules/no-dupe-v-else-if",
-					"state": "missing"
+					"biome_rule_name": "noVueDuplicateVElseIf",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-duplicate-v-else-if/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-duplicate-attributes",
@@ -7829,7 +7961,9 @@
 				{
 					"source_rule_name": "no-export-in-script-setup",
 					"source_link": "https://eslint.vuejs.org/rules/no-export-in-script-setup",
-					"state": "missing"
+					"biome_rule_name": "noVueExportInScriptSetup",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-export-in-script-setup/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-expose-after-await",
@@ -8447,7 +8581,9 @@
 				{
 					"source_rule_name": "component-options-name-casing",
 					"source_link": "https://eslint.vuejs.org/rules/component-options-name-casing",
-					"state": "missing"
+					"biome_rule_name": "useVueRegisteredComponentNameCasing",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-registered-component-name-casing/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "custom-event-name-casing",
@@ -8572,7 +8708,9 @@
 				{
 					"source_rule_name": "no-define-model-default",
 					"source_link": "https://eslint.vuejs.org/rules/no-define-model-default",
-					"state": "missing"
+					"biome_rule_name": "noVueDefineModelDefault",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-define-model-default/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-duplicate-attr-inheritance",
@@ -8611,7 +8749,9 @@
 				{
 					"source_rule_name": "no-negated-v-if-condition",
 					"source_link": "https://eslint.vuejs.org/rules/no-negated-v-if-condition",
-					"state": "missing"
+					"biome_rule_name": "noVueNegationElse",
+					"biome_link": "https://biomejs.dev/linter/rules/no-vue-negation-else/html",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-potential-component-option-typo",
@@ -8968,7 +9108,9 @@
 				{
 					"source_rule_name": "v-on-handler-style",
 					"source_link": "https://eslint.vuejs.org/rules/v-on-handler-style",
-					"state": "missing"
+					"biome_rule_name": "useVueConsistentVOnHandlerStyle",
+					"biome_link": "https://biomejs.dev/linter/rules/use-vue-consistent-v-on-handler-style/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "array-bracket-newline",
@@ -10359,7 +10501,9 @@
 				{
 					"source_rule_name": "no-hooks",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-hooks.md",
-					"state": "missing"
+					"biome_rule_name": "noTestHooks",
+					"biome_link": "https://biomejs.dev/linter/rules/no-test-hooks/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-identical-title",
@@ -10444,7 +10588,9 @@
 				{
 					"source_rule_name": "no-test-return-statement",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/no-test-return-statement.md",
-					"state": "missing"
+					"biome_rule_name": "noReturnInTest",
+					"biome_link": "https://biomejs.dev/linter/rules/no-return-in-test/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "no-unnecessary-assertions",
@@ -10509,7 +10655,9 @@
 				{
 					"source_rule_name": "prefer-equality-matcher",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/prefer-equality-matcher.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectEqualityMatcher",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-equality-matcher/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-hooks-in-order",
@@ -10545,7 +10693,9 @@
 				{
 					"source_rule_name": "prefer-strict-equal",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/prefer-strict-equal.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToStrictEqual",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-strict-equal/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-to-be",
@@ -10567,7 +10717,9 @@
 				{
 					"source_rule_name": "prefer-to-have-length",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/prefer-to-have-length.md",
-					"state": "missing"
+					"biome_rule_name": "useExpectToHaveLength",
+					"biome_link": "https://biomejs.dev/linter/rules/use-expect-to-have-length/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "prefer-web-first-assertions",
@@ -10607,7 +10759,9 @@
 				{
 					"source_rule_name": "require-top-level-describe",
 					"source_link": "https://github.com/mskelton/eslint-plugin-playwright/tree/main/docs/rules/require-top-level-describe.md",
-					"state": "missing"
+					"biome_rule_name": "useTopLevelDescribe",
+					"biome_link": "https://biomejs.dev/linter/rules/use-top-level-describe/javascript",
+					"state": "same"
 				},
 				{
 					"source_rule_name": "valid-describe-callback",
@@ -10684,6 +10838,11 @@
 				{
 					"source_rule_name": "no-pause",
 					"source_link": "https://github.com/cypress-io/eslint-plugin-cypress/blob/master/docs/rules/no-pause.md",
+					"state": "missing"
+				},
+				{
+					"source_rule_name": "no-unnecessary-assertions",
+					"source_link": "https://github.com/cypress-io/eslint-plugin-cypress/blob/master/docs/rules/no-unnecessary-assertions.md",
 					"state": "missing"
 				},
 				{
@@ -11416,6 +11575,11 @@
 					"state": "inspired"
 				},
 				{
+					"source_rule_name": "no-deprecated-media-types",
+					"source_link": "https://github.com/eslint/css/blob/main/./docs/rules/no-deprecated-media-types.md",
+					"state": "missing"
+				},
+				{
 					"source_rule_name": "no-duplicate-imports",
 					"source_link": "https://github.com/eslint/css/blob/main/./docs/rules/no-duplicate-imports.md",
 					"biome_rule_name": "noDuplicateAtImportRules",
@@ -12119,7 +12283,9 @@
 				{
 					"source_rule_name": "no-exports-from-components",
 					"source_link": "https://ota-meshi.github.io/eslint-plugin-astro/rules/no-exports-from-components",
-					"state": "missing"
+					"biome_rule_name": "noAstroComponentDefaultExport",
+					"biome_link": "https://biomejs.dev/linter/rules/no-astro-component-default-export/javascript",
+					"state": "inspired"
 				},
 				{
 					"source_rule_name": "no-prerender-export-outside-pages",
